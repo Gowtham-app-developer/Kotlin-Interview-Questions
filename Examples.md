@@ -5,9 +5,9 @@
 __Example__
 
 ```ruby
-fun main() {	
-  
-  	var mValueOne = "One"
+fun main() {
+
+    var mValueOne = "One"
     mValueOne = "Two"
     println(mValueOne)
     
