@@ -54,7 +54,7 @@ const val a = "My String" // it is perfectly fine
 - Uses Recursion in a more Optimized way. [ Recursion  means calling your own function within the function ]
 - We can print countless numbers without exception.
 - Prefix of tailrec keyword is used.
-- Example: Fibonacci type of Applications.
+- __Example:__ Fibonacci type of Applications.
 
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#tailrec-recursive-function)
 
