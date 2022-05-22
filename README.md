@@ -84,50 +84,8 @@ __Need to Know__
 - __Internal:__  We can access it only inside our module.
 - __Protected:__  The Modifier Protected is not applicable for top level Function and Classes (i.e) It can be accessible only within a class or Subclass not     outside the Class.
 
-__Example__
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#init-keyword)
 
-```ruby
-fun main() {	
-  
-   var mPerson = Employee()
-   
-   var mStudent = Student()
-   println(mStudent.mValueOne)
-   // println(mStudent.mValueTwo)
-   // println(mStudent.mValueThree)
-   println(mStudent.mValueFour)
-    
-}
-
-open class Person{
-  
-    public var mValueOne: String = "Data_1"
-    private var mValueTwo: String = "Data_2"
-    protected var mValueThree: String = "Data_3"
-    internal var mValueFour: String = "Data_4"
-   
-}
-
-class Employee : Person() {
-    
-    init{
-        println(mValueOne)
-        // println(mValueTwo)
-        println(mValueThree)
-        println(mValueFour)
-    }
-   
-}
-
-class Student {
-    
-    public var mValueOne: String = "StuData_1"
-    private var mValueTwo: String = "StuData_2"
-    protected var mValueThree: String = "StuData_3"
-    internal var mValueFour: String = "StuData_4"
-   
-}
-```  
 :arrow_up: [__Back to Top__](README.md#kotlin)  
 
 ## Inheritance
