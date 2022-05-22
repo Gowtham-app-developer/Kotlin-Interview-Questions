@@ -158,6 +158,16 @@ class Cat : Animal() {
 
 :arrow_up: [__Back to Top__](README.md#kotlin) 
 
+# Bonus Questions
+
+## How Koltin Works
+
+- Koltin uses JVM to execute its byte code.
+- The Koltin compiler internally creates a class file which is loaded into memory during the execution of Runtime
+- __Example:__ If we MainActivity.kt -> it will converts in to MainActivitykt.class during the execution of Runtime
+
+:arrow_up: [__Back to Top__](README.md#kotlin)
+
 ## Null safety in Kotlin
 
 - Kotlin's type system is aimed at eliminating the danger of null references from code.
