@@ -19,7 +19,7 @@ __Example__
     }
 ```  
 
-:arrow_up: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions#tailrec-recursive-function)
+:arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions#tailrec-recursive-function)
 
 ## Init Keyword
 
@@ -73,7 +73,7 @@ class Employee(var mName:String){
    
 }
 ```
-:arrow_up: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#init-keyword)  
+:arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#init-keyword)  
 
 ## Visibility Modifiers
 
@@ -121,4 +121,4 @@ class Student {
    
 }
 ```  
-:arrow_up: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#visibility-modifiers)  
+:arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#visibility-modifiers)  
