@@ -29,7 +29,7 @@ __Need to Know__
 - DataTypes in Kotlin all are objects so it must be initialized.
 - Try to use Float instead of Double because it consumes more memory size.
 
-:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#tailrec-recursive-function)
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#var--val)
 
 :arrow_up: [__Back to Top__](README.md#kotlin)  
 
