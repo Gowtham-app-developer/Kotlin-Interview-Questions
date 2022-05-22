@@ -1,7 +1,5 @@
 # Kotlin-Interview-Questions
 
-# Kotlin
-
 ## Kotlin
 
 - It is a Statically Typed Programming Language.
