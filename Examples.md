@@ -73,5 +73,52 @@ class Employee(var mName:String){
    
 }
 ```
-:arrow_up: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#init-keyword)
+:arrow_up: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#init-keyword)  
 
+## Visibility Modifiers
+
+__Example__
+
+```ruby
+fun main() {	
+  
+   var mPerson = Employee()
+   
+   var mStudent = Student()
+   println(mStudent.mValueOne)
+   // println(mStudent.mValueTwo)
+   // println(mStudent.mValueThree)
+   println(mStudent.mValueFour)
+    
+}
+
+open class Person{
+  
+    public var mValueOne: String = "Data_1"
+    private var mValueTwo: String = "Data_2"
+    protected var mValueThree: String = "Data_3"
+    internal var mValueFour: String = "Data_4"
+   
+}
+
+class Employee : Person() {
+    
+    init{
+        println(mValueOne)
+        // println(mValueTwo)
+        println(mValueThree)
+        println(mValueFour)
+    }
+   
+}
+
+class Student {
+    
+    public var mValueOne: String = "StuData_1"
+    private var mValueTwo: String = "StuData_2"
+    protected var mValueThree: String = "StuData_3"
+    internal var mValueFour: String = "StuData_4"
+   
+}
+```  
+:arrow_up: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#visibility-modifiers)  
