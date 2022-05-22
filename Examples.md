@@ -1,5 +1,24 @@
 # Examples  
 
+## Tailrec [Recursive] Function
+
+__Example__
+
+```ruby
+ fun main(args: Array<String>) {
+
+        println(getFibonacciNumber(1000, BigInteger("1"), BigInteger("0")))
+    }
+
+    private tailrec fun getFibonacciNumber(n: Int, a: BigInteger, b: BigInteger): BigInteger {
+
+        return if (n == 0)
+            b
+        else
+            getFibonacciNumber(n - 1, a + b, a)
+    }
+```  
+
 ## Init Keyword
 
 __Example using Primary Constructor__
