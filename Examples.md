@@ -1,5 +1,28 @@
 # Examples  
 
+## var & val
+
+__Example__
+
+```ruby
+fun main() {	
+  
+  	var mValueOne = "One"
+    mValueOne = "Two"
+    println(mValueOne)
+    
+    val mValueTwo = "One"
+    // mValueTwo = "Two"
+    println(mValueTwo)
+    
+    var mValueThree: String
+    mValueThree = "One"
+    println(mValueThree)
+    
+}
+```
+:arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions#var--val)  
+
 ## Tailrec [Recursive] Function
 
 __Example__
