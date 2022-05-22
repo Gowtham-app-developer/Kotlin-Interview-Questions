@@ -23,8 +23,13 @@
 
 - Var is mutable and Values of the variable can be changed later.
 - Val is immutable and Values of the variable cannot be changed later.
-- __Note:__ DataTypes in Kotlin all are objects so it must be initialized.
+
+__Need to Know__
+
+- DataTypes in Kotlin all are objects so it must be initialized.
 - Try to use Float instead of Double because it consumes more memory size.
+
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#tailrec-recursive-function)
 
 :arrow_up: [__Back to Top__](README.md#kotlin)  
 
