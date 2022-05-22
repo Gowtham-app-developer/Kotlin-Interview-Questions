@@ -80,6 +80,9 @@ __Example__
 - In Kotlin, the primary constructor cannot contain any code.
 - init blocks allows adding code to the primary constructor.
 - The init block will execute immediately after the primary constructor.
+
+__Need to Know__
+
 - Unlike the Primary Constructor, the Secondary constructor has its own body and the primary constructor call is expected.
 - We can’t declare the properties (i.e.) Val or Var in the Secondary Constructor.
 
