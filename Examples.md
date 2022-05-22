@@ -1,4 +1,4 @@
-# Kotlin-Interview-Questions
+# Examples  
 
 ## Init Keyword
 
@@ -52,5 +52,5 @@ class Employee(var mName:String){
    
 }
 ```
-:arrow_up: [__Back to Defintion__](main#init-keyword)
+:arrow_up: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#init-keyword)
 
