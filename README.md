@@ -154,31 +154,8 @@ class Cat : Animal() {
 - If a class contains partial implementation then we should declare a class as abstract and it cannot be instantiated.
 - If we define any properties or methods in abstract class then we must override that properties or methods in the sub class.
 
-__Example__
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#abstract-class)
 
-```ruby
-fun main() {	
-  
-  var mStudent = Student()
-	mStudent.myabstractMethod()
-    
-}
-
-abstract class Person{
-  
-    abstract fun myabstractMethod()
-   
-}
-
-class Student: Person(){
-    
-   override
-   fun myabstractMethod(){
-       println("Printed")
-   }
-   
-}
-```  
 :arrow_up: [__Back to Top__](README.md#kotlin) 
 
 ## Null safety in Kotlin
