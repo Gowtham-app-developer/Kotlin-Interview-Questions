@@ -19,6 +19,8 @@ __Example__
     }
 ```  
 
+:arrow_up: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions#tailrec-recursive-function)
+
 ## Init Keyword
 
 __Example using Primary Constructor__
