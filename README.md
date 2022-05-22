@@ -83,56 +83,8 @@ __Example__
 - Unlike the Primary Constructor, the Secondary constructor has its own body and the primary constructor call is expected.
 - We can’t declare the properties (i.e.) Val or Var in the Secondary Constructor.
 
-__Example using Primary Constructor__
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#init-keyword)
 
-```ruby
-fun main() {	
-  
-    var mValue = Employee ("Raja")
-    mValue.mName = "Gowtham"
-    
-    println("The Sum is ${mValue.mName}")
-    
-}
-
-class Employee(mName:String){
-    
-  var mName:String = "Gokul"
-    
-    init{
-        print("The Sum is ${mName}")
-    }
-    
-}
-```
-__Example using Secondary Constructor__
-
-```ruby
-fun main() {	
-  
-    var mValueOne = Employee ("Kholi")
-    
-    var mValueTwo = Employee ("Raja", 16)
-    mValueTwo.mName = "Gowtham"
-    
-    println("The Sum is ${mValueTwo.mName}")
-    
-}
-
-class Employee(var mName:String){
-    
-  var mVarName:String = "Ganesh"
-    
-    init{
-        println("The Sum is ${mName}")
-    }
-    
-    constructor(_mName:String, mAge:Int):this(_mName){
-        println("The Sum is ${_mName} and ${mAge}")
-    }
-   
-}
-```
 :arrow_up: [__Back to Top__](README.md#kotlin)
 
 ## Visibility Modifiers
