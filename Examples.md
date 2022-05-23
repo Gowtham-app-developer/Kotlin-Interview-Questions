@@ -155,7 +155,7 @@ fun main(args: Array<String>) {
 
     var mPerson = Person()
     mPerson.mSubmitButtonClick()
-     mPerson.mToastButtonClick()
+    mPerson.mToastButtonClick()
 }
 
 interface myButtonClick{
