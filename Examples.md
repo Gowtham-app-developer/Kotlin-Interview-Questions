@@ -145,3 +145,65 @@ class Student {
 }
 ```  
 :arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#visibility-modifiers)  
+
+## Data Class
+
+__Interface__
+
+```ruby
+fun main(args: Array<String>) {
+
+    var mPerson = Person()
+    mPerson.mSubmitButtonClick()
+     mPerson.mToastButtonClick()
+}
+
+interface myButtonClick{
+
+    fun mSubmitButtonClick()
+    
+    fun mToastButtonClick(){
+        
+    }
+    
+}
+
+class Person : myButtonClick {
+    
+    override fun mSubmitButtonClick(){
+        println("Button is Clicked")
+    }
+    
+     override fun mToastButtonClick(){
+        super<myButtonClick>.mToastButtonClick()
+        println("Toast Button is Clicked")
+    }
+}
+```
+:arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#interface)  
+
+## Data Class
+
+__Example__
+
+```ruby
+fun main(args: Array<String>) {
+
+    var user1 = User("Gowtham", 10)
+
+    var user2 = User("Raja", 20)
+    
+    if (user1 == user2)
+        println("Equal")
+    else
+        println("Not equal")
+        
+    println(user1.toString())
+
+    var newUser = user1.copy(id = 40)
+    println(newUser)
+}
+
+data class User(var name: String, var id: Int)
+```
+:arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#data-class)  
