@@ -163,6 +163,29 @@ class Cat : Animal() {
 
 :arrow_up: [__Back to Top__](README.md#kotlin) 
 
+## Interface
+
+- Interfaces are not a class and it consists of both abstract and normal methods.
+- It contains only the absract property (i.e.) we cannot initialize any variables inside the interface.
+- By default the properties present in an interface are abstract.
+- Declared with the interface keyword.
+- Similar to abstract class we cannot create an instance in Interface. 
+- Normal methods are public and open by default not final.
+
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#interface)
+
+:arrow_up: [__Back to Top__](README.md#kotlin) 
+
+## Data Class  
+
+- Data Class internally contains functions such as equals(), hashCode(), toString() and copy() method too.
+- The main purpose of the Data Class is to deal with the data, not with the Objects.
+- In Data class the primary constructor should contain only with a property variable (i.e) [ val or var ]
+
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#data-class)
+
+:arrow_up: [__Back to Top__](README.md#kotlin) 
+
 # Bonus Questions
 
 ## How Koltin Works
