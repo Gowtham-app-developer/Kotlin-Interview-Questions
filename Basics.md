@@ -49,3 +49,7 @@ class Person(var mValue: String) {
     }
 }
 ```
+
+## Need to Know
+
+- REPL -> Read-Eval-Print-Loop ( Tools -> Kotlin -> Kotlin REPL )
