@@ -8,7 +8,8 @@
 // This is the another type of comment line
 ```
 
-## Calling an Variable from Another Class 
+
+## Calling Variables, Functions from Another Class and String Interpolation
 
 ```ruby
 fun main(args: Array<String>) {
@@ -16,11 +17,17 @@ fun main(args: Array<String>) {
     var personObj = Person()
     personObj.name = "Steve"
 
-    print("The name of the person is ${personObj.name}")
+    println("The name of the person is ${personObj.name}")
+    
+    personObj.details("Jhon")
 }
 
 class Person {
 
     var name: String = ""
+    
+    fun details(mValue: String){
+         println("The name of the person is " + mValue)
+    }
 }
 ```
