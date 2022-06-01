@@ -30,4 +30,22 @@ class Person {
          println("The name of the person is " + mValue)
     }
 }
+```  
+
+## By Using Constrcutor
+
+```ruby
+fun main(args: Array<String>) {
+
+    var personObj = Person("Steve")
+    personObj.details()
+  
+}
+
+class Person(var mValue: String) {
+
+    fun details(){
+         println("The name of the person is " + mValue)
+    }
+}
 ```
