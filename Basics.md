@@ -95,6 +95,27 @@ fun main(args: Array<String>) {
 }
 ```
 
+## For Loop 
+
+```ruby  
+fun main(args: Array<String>) {
+
+    for (i in 1..20) { // In For Loop we will Initialize, check the condition, then print the Statement and finally we Increment.
+
+        if (i % 2 == 0) {
+            println(i)
+        }
+    }
+
+    for (i in 20 downTo 0) {
+
+        if (i % 2 == 0) {
+            println(i)
+        }
+    }
+}
+```
+
 ## Need to Know
 
 - REPL - Read-Eval-Print-Loop ( Tools -> Kotlin -> Kotlin REPL )
