@@ -97,4 +97,12 @@ fun main(args: Array<String>) {
 
 ## Need to Know
 
-- REPL -> Read-Eval-Print-Loop ( Tools -> Kotlin -> Kotlin REPL )
+- REPL - Read-Eval-Print-Loop ( Tools -> Kotlin -> Kotlin REPL )
+- Iterators - For Loop, While and doWhile Loop.
+- Iterators - Loop Control Statements (Break Statement, Continue Statement and Return Statement)
+- Statically Typed - Data type must be defined.
+- Labeled For Loop - @myLoop to reflect in the Outer For Loop.
+- Unit - Void in Java.
+- String Interpolation - “The sum is ${a+b}”.
+- Primitive DataType - boolean, char, byte, short, int, long, float and double.
+- Non Primitive DataType - classes, Strings, Interfaces and Arrays.
