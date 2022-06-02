@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
     var personObj = Person()
     personObj.name = "Steve"
 
-    println("The name of the person is ${personObj.name}")
+    println("The name of the person is ${personObj.name}") // String Interpolation
     
     personObj.details("Jhon")
 }
@@ -27,7 +27,7 @@ class Person {
     var name: String = ""
     
     fun details(mValue: String){
-         println("The name of the person is " + mValue)
+         println("The name of the person is " + mValue) // String Append
     }
 }
 ```  
