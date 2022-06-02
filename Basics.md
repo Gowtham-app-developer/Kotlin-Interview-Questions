@@ -49,6 +49,7 @@ class Person(var mValue: String) {
     }
 }
 ```
+
 ## Ranges  
 
 ```ruby
@@ -72,6 +73,27 @@ fun main() {
    
 }
 ```  
+
+## If as Expression  
+
+```ruby
+fun main(args: Array<String>) {
+
+    val a = 5
+
+    val b = 10
+
+    var maxValue: Int = if (a > b) {
+                            println("a is greater")
+                            a // Last statement will be executed if we are having multiple lines of Code.
+                        } else {
+                            println("b is greater")
+                            b
+                        }
+
+    println(maxValue)
+}
+```
 
 ## Need to Know
 
