@@ -34,6 +34,15 @@ __Need to Know__
 
 :arrow_up: [__Back to Top__](README.md#kotlin)  
 
+## When as Expression
+
+- In Kotlin, When replaces the switch case Statement which it can be used in two ways -> when as a statement and when as an expression 
+- It doesn't require a break statement at the end of each case.
+
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#when-as-expression)
+
+:arrow_up: [__Back to Top__](README.md#kotlin)
+
 ## Interoperability
 
 - We Can Call Java Functions from Kotlin and Kotlin Functions from Java using some annotations.
