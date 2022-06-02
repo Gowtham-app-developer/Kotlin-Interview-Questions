@@ -137,6 +137,32 @@ fun main(args: Array<String>) {
         j--
     }
 }
+```  
+
+## do While Loop 
+
+```ruby
+fun main(args: Array<String>) {
+
+    var i = 0
+
+    do {
+        if (i % 2 == 0) { // In do while Loop we will Initialize, print the Statement, then we Increment and finally we will do the condition check.
+            println(i)
+        }
+        i++
+    } while (i <= 10)
+
+
+    var j = 10
+
+    do {
+        if (j % 2 == 0) {
+            println(j)
+        }
+        j--
+    } while (j >= 0)
+}
 ```
 ## Need to Know
 
