@@ -95,6 +95,30 @@ fun main(args: Array<String>) {
 }
 ```
 
+## If as Expression  
+
+```ruby
+fun main(args: Array<String>) {
+
+    val x = 110
+
+    val str: String  = when (x) {
+
+        5,9 -> "x is 5 (or) 9" // Checking for multiple values using comma seperation
+        in 10..19 -> "x is 10 (to) 19" // Checking for multiple values using dot
+        !in 10..19 -> "x is 10 (to) 19"
+        1 -> "x is 1"
+        2 -> "x is 2"
+        else -> {
+            "x value is unknown"
+            "x is an alien"
+        }
+    }
+
+    println(str)
+}
+```
+
 ## Need to Know
 
 - REPL -> Read-Eval-Print-Loop ( Tools -> Kotlin -> Kotlin REPL )
