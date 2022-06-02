@@ -7,15 +7,15 @@ __Example__
 ```ruby
 fun main() {
 
-    var mValueOne = "One"
-    mValueOne = "Two"
+    var mValueOne = "One" // Mutable String 
+    mValueOne = "Two" 
     println(mValueOne)
     
-    val mValueTwo = "One"
+    val mValueTwo = "One" // Immutable String
     // mValueTwo = "Two"
     println(mValueTwo)
     
-    var mValueThree: String
+    var mValueThree: String // Explicitly defined the String
     mValueThree = "One"
     println(mValueThree)
     
@@ -33,7 +33,7 @@ __Example__
         println(getFibonacciNumber(1000, BigInteger("1"), BigInteger("0")))
     }
 
-    private tailrec fun getFibonacciNumber(n: Int, a: BigInteger, b: BigInteger): BigInteger {
+    private tailrec fun getFibonacciNumber(n: Int, a: BigInteger, b: BigInteger): BigInteger { // By Using the tailrec keyword
 
         return if (n == 0)
             b
