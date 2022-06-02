@@ -49,6 +49,29 @@ class Person(var mValue: String) {
     }
 }
 ```
+## Ranges  
+
+```ruby
+fun main() {	
+
+    val mValue0 = 1..5 // Range from 1 to 5
+    val mValue1 = 5 downTo 1 // Descending the value from 5 to 1
+    val mValue2 = 1..5 step 2 // Contains the value 1,3,5
+    val mValue3 = 5 downTo 1 step 2 // Contains the value 5,3,1
+    val mValue4 = 19.downTo(1) // Contains the value from 19 to 1
+    val mValue5 = 1.rangeTo(5) // Contains the value from 1 to 5
+    val mValue6 = 'a'..'z' // Characters from a to z
+    
+    val mValue7 = 5 in mValue1 // 5 is present in 5..1
+    
+   for (i in mValue2) {
+        println(i)
+    }
+   
+   println(mValue6)
+   
+}
+```  
 
 ## Need to Know
 
