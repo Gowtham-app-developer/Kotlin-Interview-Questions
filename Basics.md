@@ -116,6 +116,28 @@ fun main(args: Array<String>) {
 }
 ```
 
+## While Loop 
+
+```ruby
+fun main(args: Array<String>) {
+
+    var i = 0 // In while Loop we will Initialize, check the condition, then print the Statement and finally we Increment.
+    while (i <= 10) {
+        if (i % 2 == 0) {
+            println(i)
+        }
+        i++
+    }
+
+    var j = 10
+    while (j >= 0) {
+        if (j % 2 == 0) {
+            println(j)
+        }
+        j--
+    }
+}
+```
 ## Need to Know
 
 - REPL - Read-Eval-Print-Loop ( Tools -> Kotlin -> Kotlin REPL )
