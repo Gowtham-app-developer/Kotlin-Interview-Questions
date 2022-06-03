@@ -165,6 +165,40 @@ fun main(args: Array<String>) {
 }
 ```
 
+## do While Loop 
+
+__Example_1__
+
+```ruby
+fun main(args: Array<String>) {
+
+    for (i in 1..20) { 
+            
+            println(i)
+            
+           if(i==5){
+              break 
+           }
+    }
+}
+```
+
+__Example_2__
+
+```ruby
+fun main() {	
+   
+mLoop@ for(i in 1..9){
+         for(j in 1..9){
+              if(i==2 && j==2)
+              break@mLoop // We used Labeled For Loop to reflect the changes in Outer For Loop
+            println("$i $j")
+         }
+    }
+ 
+}
+```
+
 ## Need to Know
 
 - REPL - Read-Eval-Print-Loop ( Tools -> Kotlin -> Kotlin REPL )
