@@ -228,6 +228,27 @@ fun mAdd(a:Int, b:Int): Int {
 }
 ```  
 
+## Function as Expression
+
+```ruby
+fun main() {	
+  
+    var mSum = mCheckCondition (3,4)
+    
+     print("The Sum is ${mSum}")
+   
+}
+
+fun mCheckCondition(a:Int, b:Int): Int = if(a>b)
+    { 
+    println("A is Greater")
+    a 
+    } else {
+    println("B is Greater")
+    b // It will always return the last line
+}
+```  
+
 ## Need to Know
 
 - REPL - Read-Eval-Print-Loop ( Tools -> Kotlin -> Kotlin REPL )
