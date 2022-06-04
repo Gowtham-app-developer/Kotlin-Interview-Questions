@@ -214,6 +214,19 @@ mLoop@ for(i in 1..9){
  
 }
 ```
+## Function with Return Type
+
+```ruby
+fun main() {	
+
+   println("Sum is ${mAdd(2,3)}")
+ 
+}
+
+fun mAdd(a:Int, b:Int): Int {
+    return a+b
+}
+```  
 
 ## Need to Know
 
