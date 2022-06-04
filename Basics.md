@@ -165,7 +165,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-## do While Loop 
+## Break Statement 
 
 __Example_1__
 
@@ -177,7 +177,7 @@ fun main(args: Array<String>) {
             println(i)
             
            if(i==5){
-              break 
+              break // When the value becomes 5 then it won't stop further.
            }
     }
 }
@@ -192,6 +192,22 @@ mLoop@ for(i in 1..9){
          for(j in 1..9){
               if(i==2 && j==2)
               break@mLoop // We used Labeled For Loop to reflect the changes in Outer For Loop
+            println("$i $j")
+         }
+    }
+ 
+}
+```
+
+## Continue Statement 
+
+```ruby
+fun main() {	
+   
+mLoop@ for(i in 1..9){
+         for(j in 1..9){
+              if(i==2 && j==2)
+              continue@mLoop // When the value become i == 2 and j == 2 it omits the Value and print further.
             println("$i $j")
          }
     }
