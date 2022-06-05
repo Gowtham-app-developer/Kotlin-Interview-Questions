@@ -173,9 +173,9 @@ class Student {
 ```  
 :arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#visibility-modifiers)  
 
-## Data Class
+## Interface
 
-__Interface__
+__Example__
 
 ```ruby
 fun main(args: Array<String>) {
