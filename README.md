@@ -191,7 +191,7 @@ class Cat : Animal() {
 - The Function passed as parameter to another function or a Function can return another function or It can do both.
 - It also simply accepts the lambda expression as a parameter to higher Order Functions or it can also return the lambda Function.
 
-:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#data-class)
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#higher-order-function)
 
 :arrow_up: [__Back to Top__](README.md#kotlin) 
 
@@ -207,7 +207,7 @@ __Example:__
 - Where, (Int, Int) -> Int is the Parameters and Return type of the method body.
 - Where, x,y are parameters and x+y are method body
  
-:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#data-class)
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#lambda-expression)
 
 :arrow_up: [__Back to Top__](README.md#kotlin) 
 
