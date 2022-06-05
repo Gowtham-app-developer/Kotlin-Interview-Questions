@@ -49,19 +49,9 @@ __Need to Know__
 - We Can have both Java and Kotlin files in the same Application.
 - __Example:__ Java doesn’t support default Functions but we can achieve using @JVMOverloads in Kotlin.
 
+__Need to Know__
+
 :arrow_up: [__Back to Top__](README.md#kotlin)
-
-## const vs val
-
-- In kotlin, const and val both represents the immutability and read only values and act as final keyword in java.
-- val keyword must be used to declare for run time values and const keyword must be used to declare compile time values.
-- const must be used only with primitive data types not for function and constructors.
-
-```ruby
-const val fun1 = anyFunctionOrConstructor() // it is not fine
-val fun2 = anyFunctionOrConstructor() // it is perfectly fine      
-const val a = "My String" // it is perfectly fine
-```
 
 ## Tailrec [Recursive] Function
 
@@ -196,6 +186,28 @@ class Cat : Animal() {
 
 :arrow_up: [__Back to Top__](README.md#kotlin) 
 
+## Higher Order Function
+
+- The Function passed as parameter to another function or a Function can return another function or It can do both.
+- It also simply accepts the lambda expression as a parameter to higher Order Functions or it can also return the lambda Function.
+
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#data-class)
+
+:arrow_up: [__Back to Top__](README.md#kotlin) 
+
+## Lambda Expression
+
+- Lambdas expression and Anonymous function both are function literals meaning these functions are not declared but passed immediately as an expression. 
+- In Simple, it is just a function with no names.
+- Val myLambdaFunction: (Int, Int) -> Int = {x,y -> x+y} 
+- Where, myLambdaFunction is the Variable Name
+- Where, (Int, Int) -> Int is the Parameters and Return type of the method body.
+- Where, X,y are parameters and X+Y are method body
+ 
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#data-class)
+
+:arrow_up: [__Back to Top__](README.md#kotlin) 
+
 # Bonus Questions
 
 ## How Koltin Works
@@ -260,4 +272,16 @@ var name: String? = null
 var company: String? = "May be declare nullable string"  
 var nameLength:  Int = name ?.length ?: -1  
 var companyLength:  Int = company ?.length ?:  -1  
+```
+
+## const vs val
+
+- In kotlin, const and val both represents the immutability and read only values and act as final keyword in java.
+- val keyword must be used to declare for run time values and const keyword must be used to declare compile time values.
+- const must be used only with primitive data types not for function and constructors.
+
+```ruby
+const val fun1 = anyFunctionOrConstructor() // it is not fine
+val fun2 = anyFunctionOrConstructor() // it is perfectly fine      
+const val a = "My String" // it is perfectly fine
 ```
