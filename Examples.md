@@ -234,3 +234,28 @@ fun main(args: Array<String>) {
 data class User(var name: String, var id: Int)
 ```
 :arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#data-class)  
+
+## Higher Order Functions
+
+__Example 1__
+
+```ruby
+fun main() {	
+   
+var mName:String ="Hello" 
+    
+fun Student(a:String){ // Normal Function
+    println("a")
+}
+
+var mNameOne: String = fun Student(a:String){ // Normal Function assigned to a Variable
+    println("a")
+}
+    
+
+var mNameOne: (String) -> Unit = { a:String -> println("a")} // Higher Order Function assigned to a Variable
+
+{ a:String -> "Hello"} // Lambda Experssion
+
+}
+```
