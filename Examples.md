@@ -258,5 +258,52 @@ var mNameOne: (String) -> Unit = { a:String -> println("a")} // Higher Order Fun
 { a:String -> "Hello"} // Lambda Experssion
 
 }
+```  
+
+__Example 2__
+
+```ruby
+fun main(args: Array<String>) {
+
+    val program = Program()
+
+    program.addTwoNumbers(2, 7)
+
+    program.addTwoNumbers(2, 7, object : MyInterface {   // Using Interface
+
+        override fun execute(sum: Int) {
+            println(sum) // Body
+        }
+    })
+
+    val test: String = "Hello World"
+
+    val myLambda: (Int) -> Unit = { s: Int -> println(s)} // Lambda Expression [ Function ]
+    program.addTwoNumbers(2, 7, myLambda)
+}
+
+class Program {
+
+    fun addTwoNumbers(a: Int, b: Int, action: (Int) -> Unit) {  // High Level Function with Lambda as Parameter
+
+        val sum = a + b
+        action(sum)   // println(sum)
+    }
+
+    fun addTwoNumbers(a: Int, b: Int, action: MyInterface) { // Using Interface 
+        val sum = a + b
+        action.execute(sum)
+    }
+
+    fun addTwoNumbers(a: Int, b: Int) { // Simple way
+
+        val sum =  a + b
+        println(sum)
+    }
+}
+
+interface MyInterface {
+    fun execute(sum: Int)
+}
 ```
 :arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#higher-order-functions)  
