@@ -199,10 +199,13 @@ class Cat : Animal() {
 
 - Lambdas expression and Anonymous function both are function literals meaning these functions are not declared but passed immediately as an expression. 
 - In Simple, it is just a function with no names.
+
+__Example:__ 
+
 - Val myLambdaFunction: (Int, Int) -> Int = {x,y -> x+y} 
 - Where, myLambdaFunction is the Variable Name
 - Where, (Int, Int) -> Int is the Parameters and Return type of the method body.
-- Where, X,y are parameters and X+Y are method body
+- Where, x,y are parameters and x+y are method body
  
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#data-class)
 
