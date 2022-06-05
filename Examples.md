@@ -259,3 +259,4 @@ var mNameOne: (String) -> Unit = { a:String -> println("a")} // Higher Order Fun
 
 }
 ```
+:arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#higher-order-functions)  
