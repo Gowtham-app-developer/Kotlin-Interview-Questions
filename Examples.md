@@ -50,6 +50,39 @@ fun main(args: Array<String>) {
 ```
 :arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions#when-as-expression)  
 
+## Interoperability  
+
+__Example using Java__
+
+```ruby
+public class JavaFile {
+
+	public static void main(String[] args) {
+
+		int sum = MyKotlinInteroperabilityKt.addNumbers(13, 4);
+		System.out.println("Printing sum from Java file :" + sum);
+	}
+
+	public static int getArea(int l, int b) {
+		return l * b;
+	}
+}
+```  
+
+__Example using Kotlin__
+
+```ruby
+fun main(args: Array<String>) {
+
+    var area = MyJavaFile.getArea(10, 50)
+    println("Printing area from Kotlin file: $area")
+}
+
+fun addNumbers(a: Int, b: Int): Int {
+    return a + b
+}
+```
+
 ## Tailrec [Recursive] Function
 
 __Example__
