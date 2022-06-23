@@ -49,7 +49,10 @@ __Need to Know__
 - We Can have both Java and Kotlin files in the same Application.
 - __Example:__ Java doesn’t support default Functions but we can achieve using @JVMOverloads in Kotlin.
 
-__Need to Know__
+__Need to Know__  
+
+- In Java, During Compile Time -> Compiler will Java Code will convert (i.e.) MainActivity.java in to Byte Code (i.e.) MainActivity.class
+- In Koltin,  During Compile Time -> Compiler will Kotlin Code will convert (i.e.) MainActivity.java in to Byte Code (i.e.) MainActivityKt.class
 
 :arrow_up: [__Back to Top__](README.md#kotlin)
 
