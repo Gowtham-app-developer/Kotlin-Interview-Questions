@@ -378,7 +378,7 @@ fun main() {
 __Example 2 (Using Constructor)__
 
 ```ruby
-enum class CreditCardType(val color: String, val maxLimit: Int = 1000) {
+enum class CreditCardType(val color: String, val maxLimit: Int = 1000) { // Setting Default Value in Second Parameter
     SILVER("Red", 500),
     GOLD("White"), 
     PLATINUM("Green")
