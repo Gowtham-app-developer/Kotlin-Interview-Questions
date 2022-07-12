@@ -340,3 +340,37 @@ interface MyInterface {
 }
 ```
 :arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#higher-order-functions)  
+
+## Enum
+
+__Example 1__
+
+```ruby
+enum class CreditCardType {
+    SILVER, // Ordinal = 0, name = "SILVER"
+    GOLD, // Ordinal = 1, name = "GOLD"
+    PLATINUM // Ordinal = 2, name = "PLATINUM"
+}
+
+
+fun main() {
+
+   // TODO Enum constants are objects of enum class type.
+    val mCardType: CreditCardType = CreditCardType.GOLD
+    
+   // TODO Each enum object has two properties: ordinal and name
+    println(CreditCardType.GOLD.ordinal)
+    println(CreditCardType.GOLD)    // OR CreditCardType.GOLD.name
+    
+    // TODO Each enum object has two methods: values() and valueOf()
+    val myConstants: Array<CreditCardType> = CreditCardType.values() // It returns array of Objects
+    myConstants.forEach { println(it) }
+    
+    // TODO Using in 'when' statement
+     when(mCardType) {
+        CreditCardType.SILVER -> println("Gauthy has silver card")
+        CreditCardType.GOLD -> println("Gauthy has gold card")
+        CreditCardType.PLATINUM -> println("Gauthy has platinum card")
+    }
+}
+```
