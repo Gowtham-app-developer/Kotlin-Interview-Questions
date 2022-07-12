@@ -214,6 +214,16 @@ __Example:__
 
 :arrow_up: [__Back to Top__](README.md#kotlin) 
 
+## Enum 
+
+- Enum (Enumeration)  is a data type that contains a fixed set of constants which is declared using the keyword enum. 
+- When we require a predefined set of values which represents some kind of data, we use enum. 
+- In Java enum constants are implicitly static and final.
+
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#enum)
+
+:arrow_up: [__Back to Top__](README.md#kotlin) 
+
 # Bonus Questions
 
 ## How Koltin Works
