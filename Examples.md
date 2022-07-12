@@ -393,3 +393,30 @@ fun main() {
     
 }
 ```
+__Example 3 (Using Interface)__
+
+```ruby
+enum class CreditCardType(val color: String, val maxLimit: Int = 1000): MCardCashBack {
+    SILVER("Red", 500){
+        override fun getCashbackValue(): Int {
+            return 1;
+        }
+    },
+    GOLD("White"){
+        override fun getCashbackValue(): Int = 10
+    }, 
+    PLATINUM("Green"){
+        override fun getCashbackValue(): Int = 100
+    },
+}
+
+interface MCardCashBack {
+    fun getCashbackValue(): Int
+}
+
+fun main() {
+
+    println(CreditCardType.GOLD.getCashbackValue())
+    
+}
+```
