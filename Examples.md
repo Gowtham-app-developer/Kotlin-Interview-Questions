@@ -374,3 +374,22 @@ fun main() {
     }
 }
 ```
+
+__Example 2 (Using Constructor)__
+
+```ruby
+enum class CreditCardType(val color: String, val maxLimit: Int = 1000) {
+    SILVER("Red", 500),
+    GOLD("White"), 
+    PLATINUM("Green")
+}
+
+
+fun main() {
+
+   // TODO Enum constants are objects of enum class type.
+    println(CreditCardType.GOLD.color)
+    println(CreditCardType.GOLD.maxLimit)
+    
+}
+```
