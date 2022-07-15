@@ -428,16 +428,16 @@ __Example 1__
 ```ruby
 fun main() {
   
-    println(EmployeeDetails.id)
+    println(EmployeeDetails.id) 
     
     println(EmployeeDetails.getGender())
 }
 
 object EmployeeDetails {
     
-    var id: String = "AB1000"
+    var id: String = "AB1000" // Behaves like a STATIC variable
     
-    fun getGender(): String{
+    fun getGender(): String{ // Behaves like a STATIC method
         
         return "Male"
     }
@@ -463,16 +463,16 @@ open class BaseClass {
     }
 }
 
-object EmployeeDetails: BaseClass() { // Inheriting the BaseClass
+object EmployeeDetails: BaseClass() { // Inheriting from the BaseClass 
     
-    var id: String = "AB1000"
+    var id: String = "AB1000" // Behaves like a STATIC variable
     
-    fun getGender(): String{
+    fun getGender(): String{ // Behaves like a STATIC method
         
         return "Male"
     }
     
-    override fun myMethod(str: String){
+    override fun myMethod(str: String){ // Currently, Behaving like a STATIC method
         super.myMethod(str)
          println("Object Class: " +str)
     }
