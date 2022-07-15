@@ -420,3 +420,26 @@ fun main() {
     
 }
 ```
+
+## Object Keyword
+
+__Example__
+
+```ruby
+fun main() {
+  
+    println(EmployeeDetails.id)
+    
+    println(EmployeeDetails.getGender())
+}
+
+object EmployeeDetails {
+    
+    var id: String = "AB1000"
+    
+    fun getGender(): String{
+        
+        return "Male"
+    }
+}
+```
