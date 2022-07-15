@@ -1,5 +1,13 @@
 # Kotlin-Interview-Questions
 
+
+## Table of Contents
+
+| S.No | Content |
+| --------	 | ------------ |
+| 1 | [Kotlin](README.md#kotlin) |
+| 2 | [Why Kotlin](README.md#why-kotlin) |
+
 ## Kotlin
 
 - It is a Statically Typed Programming Language.
