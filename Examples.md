@@ -423,7 +423,7 @@ fun main() {
 
 ## Object Keyword
 
-__Example__
+__Example 1__
 
 ```ruby
 fun main() {
@@ -443,3 +443,39 @@ object EmployeeDetails {
     }
 }
 ```
+__Example 2 (Using Inheritance)__
+
+```ruby
+fun main() {
+  
+    EmployeeDetails.id = "BC1000"
+    println(EmployeeDetails.id)
+    
+    println(EmployeeDetails.getGender())
+    
+    EmployeeDetails.myMethod("Hello World")
+}
+
+open class BaseClass {
+    
+    open fun myMethod(str: String){
+        println("Base Class")
+    }
+}
+
+object EmployeeDetails: BaseClass() { // Inheriting the BaseClass
+    
+    var id: String = "AB1000"
+    
+    fun getGender(): String{
+        
+        return "Male"
+    }
+    
+    override fun myMethod(str: String){
+        super.myMethod(str)
+         println("Object Class: " +str)
+    }
+}
+```  
+:arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#object-keyword)
