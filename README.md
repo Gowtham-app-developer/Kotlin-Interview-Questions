@@ -10,6 +10,8 @@
 | 3 | [var & val](README.md#var--val) |
 | 4 | [When as Expression](README.md#when-as-expression) |
 | 5 | [Interoperability](README.md#interoperability) |
+| 6 | [Tailrec [Recursive] Function](README.md#tailrec-recursive-function) |
+| 7 | [Init Keyword](README.md#init-keyword) |
 
 ## Kotlin
 
@@ -146,7 +148,22 @@ fun addNumbers(a: Int, b: Int): Int {
 - Prefix of tailrec keyword is used.
 - __Example:__ Fibonacci type of Applications.
 
-:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#tailrec-recursive-function)
+__Example__
+
+```ruby
+ fun main(args: Array<String>) {
+
+        println(getFibonacciNumber(1000, BigInteger("1"), BigInteger("0")))
+    }
+
+    private tailrec fun getFibonacciNumber(n: Int, a: BigInteger, b: BigInteger): BigInteger { // By Using the tailrec keyword
+
+        return if (n == 0)
+            b
+        else
+            getFibonacciNumber(n - 1, a + b, a)
+    }
+```  
 
 :arrow_up: [__Back to Top__](README.md#kotlin)
 
@@ -161,7 +178,56 @@ __Need to Know__
 - Unlike the Primary Constructor, the Secondary constructor has its own body and the primary constructor call is expected.
 - We can’t declare the properties (i.e.) Val or Var in the Secondary Constructor.
 
-:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#init-keyword)
+__Example using Primary Constructor__
+
+```ruby
+fun main() {	
+  
+    var mValue = Employee ("Raja")
+    mValue.mName = "Gowtham"
+    
+    println("The Sum is ${mValue.mName}")
+    
+}
+
+class Employee(mName:String){
+    
+  var mName:String = "Gokul"
+    
+    init{
+        print("The Sum is ${mName}")
+    }
+    
+}
+```
+__Example using Secondary Constructor__
+
+```ruby
+fun main() {	
+  
+    var mValueOne = Employee ("Kholi")
+    
+    var mValueTwo = Employee ("Raja", 16)
+    mValueTwo.mName = "Gowtham"
+    
+    println("The Sum is ${mValueTwo.mName}")
+    
+}
+
+class Employee(var mName:String){
+    
+  var mVarName:String = "Ganesh"
+    
+    init{
+        println("The Sum is ${mName}")
+    }
+    
+    constructor(_mName:String, mAge:Int):this(_mName){
+        println("The Sum is ${_mName} and ${mAge}")
+    }
+   
+}
+```
 
 :arrow_up: [__Back to Top__](README.md#kotlin)
 
