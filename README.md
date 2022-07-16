@@ -50,7 +50,7 @@ __Need to Know__
 
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#when-as-expression)
 
-:arrow_up: [__Back to Top__](README.md#kotlin)
+:arrow_up: [__Back to Top__](README.md#table-of-contents)
 
 ## Interoperability
 
@@ -63,7 +63,7 @@ __Need to Know__
 - In Java, During Compile Time -> Compiler will Java Code will convert (i.e.) MainActivity.java in to Byte Code (i.e.) MainActivity.class
 - In Koltin,  During Compile Time -> Compiler will Kotlin Code will convert (i.e.) MainActivity.java in to Byte Code (i.e.) MainActivityKt.class
 
-:arrow_up: [__Back to Top__](README.md#kotlin)
+:arrow_up: [__Back to Top__](README.md#table-of-contents)
 
 ## Tailrec [Recursive] Function
 
