@@ -8,6 +8,8 @@
 | 1 | [Kotlin](README.md#kotlin) |
 | 2 | [Why Kotlin](README.md#why-kotlin) |
 | 3 | [var & val](README.md#var--val) |
+| 4 | [When as Expression](README.md#when-as-expression) |
+| 5 | [Interoperability](README.md#interoperability) |
 
 ## Kotlin
 
