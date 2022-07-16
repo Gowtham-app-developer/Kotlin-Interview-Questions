@@ -68,7 +68,29 @@ fun main() {
 - In Kotlin, When replaces the switch case Statement which it can be used in two ways -> when as a statement and when as an expression 
 - It doesn't require a break statement at the end of each case.
 
-:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#when-as-expression)
+__Example__
+
+```ruby
+fun main(args: Array<String>) {
+
+    val x = 110
+
+    val str: String  = when (x) {
+
+        5,9 -> "x is 5 (or) 9" // Checking for multiple values using comma seperation
+        in 10..19 -> "x is 10 (to) 19" // Checking for multiple values using dot
+        !in 10..19 -> "x is 10 (to) 19"
+        1 -> "x is 1"
+        2 -> "x is 2"
+        else -> {
+            "x value is unknown"
+            "x is an alien"
+        }
+    }
+
+    println(str)
+}
+```
 
 :arrow_up: [__Back to Top__](README.md#table-of-contents)
 
@@ -82,6 +104,37 @@ __Need to Know__
 
 - In Java, During Compile Time -> Compiler will Java Code will convert (i.e.) MainActivity.java in to Byte Code (i.e.) MainActivity.class
 - In Koltin,  During Compile Time -> Compiler will Kotlin Code will convert (i.e.) MainActivity.java in to Byte Code (i.e.) MainActivityKt.class
+
+__Example using Java__
+
+```ruby
+public class JavaFile {
+
+	public static void main(String[] args) {
+
+		int sum = MyKotlinInteroperabilityKt.addNumbers(13, 4);
+		System.out.println("Printing sum from Java file :" + sum);
+	}
+
+	public static int getArea(int l, int b) {
+		return l * b;
+	}
+}
+```  
+
+__Example using Kotlin__
+
+```ruby
+fun main(args: Array<String>) {
+
+    var area = MyJavaFile.getArea(10, 50)
+    println("Printing area from Kotlin file: $area")
+}
+
+fun addNumbers(a: Int, b: Int): Int {
+    return a + b
+}
+```
 
 :arrow_up: [__Back to Top__](README.md#table-of-contents)
 
