@@ -7,10 +7,11 @@
 | --------	 | ------------ |
 | 1 | [Kotlin](README.md#kotlin) |
 | 2 | [Why Kotlin](README.md#why-kotlin) |
+| 3 | [var & val](README.md#var--val) |
 
 ## Kotlin
 
-- It is a Statically Typed Programming Language.
+- It is a Statically Typed Programming Language (i.e.) Data type must be defined.
 - It is Officially announced for Android Development.
 - It is Powerful and Easy to Use.
 - It Uses JVM to execute its byte code.
@@ -25,7 +26,7 @@
 - It Supports Functional Programming (i.e.) Can pass Function as parameter to another function or Function can return another function.
 - Write only Less Code (i.e.) It Reduces a lot of Boilerplate Code.
 
-:arrow_up: [__Back to Top__](README.md#kotlin)
+:arrow_up: [__Back to Top__](README.md#table-of-contents)
 
 ## var & val
 
@@ -40,7 +41,7 @@ __Need to Know__
 
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#var--val)
 
-:arrow_up: [__Back to Top__](README.md#kotlin)  
+:arrow_up: [__Back to Top__](README.md#table-of-contents)  
 
 ## When as Expression
 
