@@ -15,7 +15,7 @@
 - It is Powerful and Easy to Use.
 - It Uses JVM to execute its byte code.
 
-:arrow_up: [__Back to Top__](README.md#kotlin)
+:arrow_up: [__Back to Top__](README.md#table-of-contents)
 
 ## Why Kotlin
 
