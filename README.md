@@ -41,7 +41,25 @@ __Need to Know__
 - Data Types in Kotlin all are objects so it must be initialized (i.e.) There is no default value for the Data Types.
 - Try to use Float instead of Double, because it consumes Less memory size.
 
-:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#var--val)
+__Example__
+
+```ruby
+fun main() {
+
+    var mValueOne = "One" // Mutable String 
+    mValueOne = "Two" 
+    println(mValueOne)
+    
+    val mValueTwo = "One" // Immutable String
+    // mValueTwo = "Two"
+    println(mValueTwo)
+    
+    var mValueThree: String // Explicitly defined the String
+    mValueThree = "One"
+    println(mValueThree)
+    
+}
+```
 
 :arrow_up: [__Back to Top__](README.md#table-of-contents)  
 
