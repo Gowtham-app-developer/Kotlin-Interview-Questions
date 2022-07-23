@@ -6,12 +6,17 @@
 | --------	 | ------------ |
 | 1 | [Adding Comment Line](Basics.md#adding-comment-line) |
 | 2 | [Calling Variables & Functions](Basics.md#calling-variables-functions-from-another-class-and-string-interpolation) |
-| 3 | [var & val](README.md#var--val) |
-| 4 | [When as Expression](README.md#when-as-expression) |
-| 5 | [Interoperability](README.md#interoperability) |
-| 6 | [Tailrec [Recursive] Function](README.md#tailrec-recursive-function) |
-| 7 | [Init Keyword](README.md#init-keyword) |
-
+| 3 | [By Using Constrcutor](Basics.md#by-using-constrcutor) |
+| 4 | [Ranges](Basics.md#ranges) |
+| 5 | [If as Expression](Basics.md#if-as-expression) |
+| 6 | [For Loop](Basics.md#for-loop) |
+| 7 | [While Loop](Basics.md#while-loop) |
+| 8 | [do While Loop](Basics.md#do-while-loop) |
+| 9 | [Break Statement](Basics.md#break-statement) |
+| 10 | [Continue Statement](Basics.md#continue-statement) |
+| 11 | [Function with Return Type](Basics.md#function-with-return-type) |
+| 12 | [Function as Expression](Basics.md#function-as-expression) |
+| 13 | [Need to Know](Basics.md#need-to-know) |
 
 ## Adding Comment Line
 
@@ -90,6 +95,7 @@ fun main() {
    
 }
 ```  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)
 
 ## If as Expression  
 
@@ -110,7 +116,8 @@ fun main(args: Array<String>) {
 
     println(maxValue)
 }
-```
+```  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)
 
 ## For Loop 
 
@@ -132,6 +139,7 @@ fun main(args: Array<String>) {
     }
 }
 ```
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)
 
 ## While Loop 
 
@@ -155,6 +163,7 @@ fun main(args: Array<String>) {
     }
 }
 ```  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)
 
 ## do While Loop 
 
@@ -181,6 +190,7 @@ fun main(args: Array<String>) {
     } while (j >= 0)
 }
 ```
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)
 
 ## Break Statement 
 
@@ -215,6 +225,7 @@ mLoop@ for(i in 1..9){
  
 }
 ```
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)
 
 ## Continue Statement 
 
@@ -230,7 +241,9 @@ mLoop@ for(i in 1..9){
     }
  
 }
-```
+```  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)
+
 ## Function with Return Type
 
 ```ruby
@@ -244,6 +257,7 @@ fun mAdd(a:Int, b:Int): Int {
     return a+b
 }
 ```  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)
 
 ## Function as Expression
 
@@ -265,6 +279,7 @@ fun mCheckCondition(a:Int, b:Int): Int = if(a>b)
     b // It will always return the last line
 }
 ```  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)
 
 ## Need to Know
 
@@ -277,3 +292,5 @@ fun mCheckCondition(a:Int, b:Int): Int = if(a>b)
 - String Interpolation - “The sum is ${a+b}”.
 - Primitive DataType - boolean, char, byte, short, int, long, float and double.
 - Non Primitive DataType - classes, Strings, Interfaces and Arrays.
+
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)
