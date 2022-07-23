@@ -22,7 +22,7 @@
 
 // This is the another type of comment line
 ```
-
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)
 
 ## Calling Variables, Functions from Another Class and String Interpolation
 
@@ -46,6 +46,7 @@ class Person {
     }
 }
 ```  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)
 
 ## By Using Constrcutor
 
@@ -64,6 +65,7 @@ class Person(var mValue: String) {
     }
 }
 ```
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)
 
 ## Ranges  
 
