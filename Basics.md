@@ -1,3 +1,18 @@
+# Kotlin-Basics
+
+## Table of Contents
+
+| S.No | Content |
+| --------	 | ------------ |
+| 1 | [Adding Comment Line](Basics.md#adding-comment-line) |
+| 2 | [Calling Variables & Functions](Basics.md#calling-variables-functions-from-another-class-and-string-interpolation) |
+| 3 | [var & val](README.md#var--val) |
+| 4 | [When as Expression](README.md#when-as-expression) |
+| 5 | [Interoperability](README.md#interoperability) |
+| 6 | [Tailrec [Recursive] Function](README.md#tailrec-recursive-function) |
+| 7 | [Init Keyword](README.md#init-keyword) |
+
+
 ## Adding Comment Line
 
 ```ruby
