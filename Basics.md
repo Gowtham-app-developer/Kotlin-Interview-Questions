@@ -107,7 +107,7 @@ fun main(args: Array<String>) {
 
     var maxValue: Int = if (a > b) {
                             println("a is greater")
-                            a // Last statement will be executed if we are having multiple lines of Code.
+                            a // TODO - Last statement will be executed if we are having multiple lines of Code.
                         } else {
                             println("b is greater")
                             b
@@ -145,7 +145,8 @@ fun main(args: Array<String>) {
 ```ruby
 fun main(args: Array<String>) {
 
-    var i = 0 // In while Loop we will Initialize, check the condition, then print the Statement and finally we Increment.
+    var i = 0 // TODO - In while Loop we will Initialize, check the condition, then print the Statement and finally we Increment.
+    
     while (i <= 10) {
         if (i % 2 == 0) {
             println(i)
@@ -154,6 +155,7 @@ fun main(args: Array<String>) {
     }
 
     var j = 10
+    
     while (j >= 0) {
         if (j % 2 == 0) {
             println(j)
