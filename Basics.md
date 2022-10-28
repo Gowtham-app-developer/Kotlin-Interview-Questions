@@ -103,7 +103,6 @@ fun main() {
 fun main(args: Array<String>) {
 
     val a = 5
-
     val b = 10
 
     var maxValue: Int = if (a > b) {
@@ -124,7 +123,7 @@ fun main(args: Array<String>) {
 ```ruby  
 fun main(args: Array<String>) {
 
-    for (i in 1..20) { // In For Loop we will Initialize, check the condition, then print the Statement and finally we Increment.
+    for (i in 1..20) { // TODO - By using For Loop we will Initialize, check the condition, then print the Statement and finally we Increment.
 
         if (i % 2 == 0) {
             println(i)
