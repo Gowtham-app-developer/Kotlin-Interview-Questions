@@ -48,18 +48,18 @@ __Example__
 ```ruby
 fun main() {
 
-    var mValueOne = "One" // Mutable String 
-    mValueOne = "Two" 
-    println(mValueOne)
-    
-    val mValueTwo = "One" // Immutable String
-    // mValueTwo = "Two"
-    println(mValueTwo)
-    
-    var mValueThree: String // Explicitly defined the String
-    mValueThree = "One"
-    println(mValueThree)
-    
+  var mValueOne = "Two" // TODO - Mutable String 
+  mValueOne = "One"
+  println(mValueOne)
+
+  val mValueTwo = "Two" // TODO - Immutable String
+  // mValueTwo = "Two" // TODO - It will Get Compile Time Error
+  println(mValueTwo)
+
+  var mValueThree: String // TODO - Explicitly defined the String
+  mValueThree = "Three"
+  println(mValueThree)
+
 }
 ```
 
