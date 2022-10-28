@@ -37,7 +37,7 @@
 - Var is mutable (i.e.) Values of the variable can be changed later.
 - Val is immutable (i.e.) Values of the variable cannot be changed later.
 
-__Need to Know__
+__Need to Know,__
 
 - In Kotlin, We use Capital Letters for defining the Data Types and there is no primitive Data Type.
 - Data Types in Kotlin all are objects so it must be initialized (i.e.) There is no default value for the Data Types.
