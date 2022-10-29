@@ -7,18 +7,18 @@ __Example__
 ```ruby
 fun main() {
 
-    var mValueOne = "One" // Mutable String 
-    mValueOne = "Two" 
-    println(mValueOne)
-    
-    val mValueTwo = "One" // Immutable String
-    // mValueTwo = "Two"
-    println(mValueTwo)
-    
-    var mValueThree: String // Explicitly defined the String
-    mValueThree = "One"
-    println(mValueThree)
-    
+  var mValueOne = "Two" // TODO - Mutable String 
+  mValueOne = "One"
+  println(mValueOne)
+
+  val mValueTwo = "Two" // TODO - Immutable String
+  // mValueTwo = "Two" // TODO - It will Get Compile Time Error
+  println(mValueTwo)
+
+  var mValueThree: String // TODO - Explicitly defined the String
+  mValueThree = "Three"
+  println(mValueThree)
+
 }
 ```
 :arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions#var--val)  
@@ -34,14 +34,14 @@ fun main(args: Array<String>) {
 
     val str: String  = when (x) {
 
-        5,9 -> "x is 5 (or) 9" // Checking for multiple values using comma seperation
-        in 10..19 -> "x is 10 (to) 19" // Checking for multiple values using dot
+        5,9 -> "x is 5 (or) 9" // TODO - Checking for multiple values using comma seperation
+        in 10..19 -> "x is 10 (to) 19" // TODO - Checking for multiple values using dot
         !in 10..19 -> "x is 10 (to) 19"
         1 -> "x is 1"
         2 -> "x is 2"
         else -> {
-            "x value is unknown"
-            "x is an alien"
+            "x value is Gauthy"
+            "x is an Gowtham"
         }
     }
 
