@@ -43,25 +43,7 @@ __Need to Know,__
 - Data Types in Kotlin all are objects so it must be initialized (i.e.) There is no default value for the Data Types.
 - Try to use Float instead of Double, because it consumes Less memory size.
 
-__Example__
-
-```ruby
-fun main() {
-
-  var mValueOne = "Two" // TODO - Mutable String 
-  mValueOne = "One"
-  println(mValueOne)
-
-  val mValueTwo = "Two" // TODO - Immutable String
-  // mValueTwo = "Two" // TODO - It will Get Compile Time Error
-  println(mValueTwo)
-
-  var mValueThree: String // TODO - Explicitly defined the String
-  mValueThree = "Three"
-  println(mValueThree)
-
-}
-```
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#var--val)
 
 :arrow_up: [__Back to Top__](README.md#table-of-contents)  
 
@@ -70,29 +52,7 @@ fun main() {
 - In Kotlin, When replaces the switch case Statement which it can be used in two ways -> when as a statement and when as an expression 
 - It doesn't require a break statement at the end of each case.
 
-__Example__
-
-```ruby
-fun main(args: Array<String>) {
-
-    val x = 110
-
-    val str: String  = when (x) {
-
-        5,9 -> "x is 5 (or) 9" // TODO - Checking for multiple values using comma seperation
-        in 10..19 -> "x is 10 (to) 19" // TODO - Checking for multiple values using dot
-        !in 10..19 -> "x is 10 (to) 19"
-        1 -> "x is 1"
-        2 -> "x is 2"
-        else -> {
-            "x value is Gauthy"
-            "x is an Gowtham"
-        }
-    }
-
-    println(str)
-}
-```
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#when-as-expression)
 
 :arrow_up: [__Back to Top__](README.md#table-of-contents)
 
