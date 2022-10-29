@@ -79,14 +79,14 @@ fun main(args: Array<String>) {
 
     val str: String  = when (x) {
 
-        5,9 -> "x is 5 (or) 9" // Checking for multiple values using comma seperation
-        in 10..19 -> "x is 10 (to) 19" // Checking for multiple values using dot
+        5,9 -> "x is 5 (or) 9" // TODO - Checking for multiple values using comma seperation
+        in 10..19 -> "x is 10 (to) 19" // TODO - Checking for multiple values using dot
         !in 10..19 -> "x is 10 (to) 19"
         1 -> "x is 1"
         2 -> "x is 2"
         else -> {
-            "x value is unknown"
-            "x is an alien"
+            "x value is Gauthy"
+            "x is an Gowtham"
         }
     }
 
