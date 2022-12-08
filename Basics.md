@@ -27,7 +27,34 @@
 
 // TODO - This is the another type of comment line
 ```
-:arrow_up: [__Back to Top__](Basics.md#table-of-contents)
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
+
+
+## Declaring Variables and Methods  
+
+```ruby
+fun main(args: Array<String>) {
+   var mString: String // TODO Delaring Mutable String Explicitly
+    mString	= "Hello World!!!"
+    println(mString)
+    
+    val mStringOne = "Hello World!!!" // TODO Delaring Immutable String Implicitly
+    println(mStringOne)
+    
+    mAddTwoValues() // TODO Calling a Method
+    
+    println(mAddMultipleValues())
+}
+
+fun mAddTwoValues(){ // TODO Declaring a Method
+    println(1+2)
+}
+
+fun mAddMultipleValues(): Int{ // TODO Declaring a Method with a Return Value
+    return 1+4
+}
+```
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## Calling Variables, Functions from Another Class and String Interpolation
 
