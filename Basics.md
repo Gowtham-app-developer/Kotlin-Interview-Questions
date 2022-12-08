@@ -4,7 +4,8 @@
 
 | S.No | Content |
 | --------	 | ------------ |
-| 1 | [Adding Comment Line](Basics.md#adding-comment-line) |
+| 1 | [Adding Comment Line](Basics.md#adding-comment-line) |  
+|   | [Declaring Variables and Methods](Basics.md#declaring-variables-and-methods) |
 | 2 | [Calling Variables & Functions](Basics.md#calling-variables-functions-from-another-class-and-string-interpolation) |
 | 3 | [By Using Constrcutor](Basics.md#by-using-constrcutor) |
 | 4 | [Ranges](Basics.md#ranges) |
