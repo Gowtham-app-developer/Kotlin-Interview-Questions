@@ -34,11 +34,11 @@
 
 ```ruby
 fun main(args: Array<String>) {
-   var mString: String // TODO Delaring Mutable String Explicitly
+   var mString: String // TODO Declaring Mutable String Explicitly
     mString	= "Hello World!!!"
     println(mString)
     
-    val mStringOne = "Hello World!!!" // TODO Delaring Immutable String Implicitly
+    val mStringOne = "Hello World!!!" // TODO Declaring Immutable String Implicitly
     println(mStringOne)
     
     mAddTwoValues() // TODO Calling a Method
