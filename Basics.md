@@ -45,7 +45,9 @@ fun main(args: Array<String>) {
 
     mAddTwoValues() // TODO Calling a Method
 
-    println(mAddMultipleValues())
+    println(mAddMultipleValues())  
+    
+    println(mAddMultipleValues(7,2))
 }
 
 fun mAddTwoValues() { // TODO Declaring a Method
@@ -54,6 +56,10 @@ fun mAddTwoValues() { // TODO Declaring a Method
 
 fun mAddMultipleValues(): Int { // TODO Declaring a Method with a Return Value
     return 1 + 4
+}
+
+fun mAddMultipleValues(mValue1:Int, mValue2:Int): Int{ // TODO Declaring a Method with the Parameters
+    return mValue1 * mValue2
 }
 ```
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
