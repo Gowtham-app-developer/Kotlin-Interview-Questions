@@ -58,7 +58,7 @@ fun mAddMultipleValues(): Int { // TODO Declaring a Method with a Return Value
     return 1 + 4
 }
 
-fun mAddMultipleValues(mValue1:Int, mValue2:Int): Int{ // TODO Declaring a Method with the Parameters
+fun mAddMultipleValues(mValue1:Int, mValue2:Int): Int { // TODO Declaring a Method with the Parameters
     return mValue1 * mValue2
 }
 ```
