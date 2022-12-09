@@ -73,9 +73,9 @@ fun main() {
   var mValueOne = "Gauthy" 
   var mValueTwo = "World"
 
-  print("Welcome to "+ mValueOne + " " + mValueTwo)
-  print("Welcome to $mValueOne $mValueTwo") // TODO - This is String Interpolation
-  print("The Length is ${mValueOne.length}") 
+  print("Welcome to "+ mValueOne + " " + mValueTwo) // TODO - String Append
+  print("Welcome to $mValueOne $mValueTwo") // TODO - String Interpolation
+  print("The Length is ${mValueOne.length}") // TODO - String Interpolation
 }
 ```  
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
@@ -88,7 +88,7 @@ fun main(args: Array<String>) {
     var personObj = Person()
     personObj.name = "Gauthy"
 
-    println("The name of the person is ${personObj.name}") // TODO - This is String Interpolation
+    println("The name of the person is ${personObj.name}") // TODO - String Interpolation
     
     personObj.details("Gowtham")
 }
@@ -98,7 +98,7 @@ class Person {
     var name: String = ""
     
     fun details(mValue: String){
-         println("The name of the person is " + mValue) // TODO - This is String Append
+         println("The name of the person is " + mValue) // TODO - String Append
     }
 }
 ```  
