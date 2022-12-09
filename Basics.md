@@ -224,7 +224,7 @@ fun main(args: Array<String>) {
 ## do While Loop 
 
 ```ruby  
-// In do while Loop we will Initialize, print the Statement, then we Increment and finally we will do the condition check.  
+// TODO In do while Loop we will Initialize, print the Statement, then we Increment and finally we will do the condition check.  
 
 fun main(args: Array<String>) {
 
