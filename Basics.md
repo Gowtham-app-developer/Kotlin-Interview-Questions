@@ -8,17 +8,17 @@
 | 2 | [Declaring Variables and Methods](Basics.md#declaring-variables-and-methods) |  
 | 3 | [String Interpolation](Basics.md#string-interpolation) |  
 | 4 | [Calling Variables & Functions](Basics.md#calling-variables--functions-from-another-class) |
-| 3 | [By Using Constrcutor](Basics.md#by-using-constrcutor) |
-| 4 | [Ranges](Basics.md#ranges) |
-| 5 | [If as Expression](Basics.md#if-as-expression) |
-| 6 | [For Loop](Basics.md#for-loop) |
-| 7 | [While Loop](Basics.md#while-loop) |
-| 8 | [do While Loop](Basics.md#do-while-loop) |
-| 9 | [Break Statement](Basics.md#break-statement) |
-| 10 | [Continue Statement](Basics.md#continue-statement) |
-| 11 | [Function with Return Type](Basics.md#function-with-return-type) |
-| 12 | [Function as Expression](Basics.md#function-as-expression) |
-| 13 | [Need to Know](Basics.md#need-to-know) |
+| 5| [By Using Primary Constrcutor](Basics.md#by-using-primary-constrcutor) |
+| 6 | [Ranges](Basics.md#ranges) |
+| 7 | [If as Expression](Basics.md#if-as-expression) |
+| 8 | [For Loop](Basics.md#for-loop) |
+| 9 | [While Loop](Basics.md#while-loop) |
+| 11 | [do While Loop](Basics.md#do-while-loop) |
+| 12 | [Break Statement](Basics.md#break-statement) |
+| 13 | [Continue Statement](Basics.md#continue-statement) |
+| 14 | [Function with Return Type](Basics.md#function-with-return-type) |
+| 15 | [Function as Expression](Basics.md#function-as-expression) |
+| 16 | [Need to Know](Basics.md#need-to-know) |
 
 ## Adding Comment Line
 
@@ -104,7 +104,7 @@ class Person {
 ```  
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)
 
-## By Using Constrcutor
+## By Using Primary Constrcutor
 
 ```ruby
 fun main(args: Array<String>) {
