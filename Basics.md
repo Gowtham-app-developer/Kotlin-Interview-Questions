@@ -5,7 +5,8 @@
 | S.No | Content |
 | --------	 | ------------ |
 | 1 | [Adding Comment Line](Basics.md#adding-comment-line) |  
-|   | [Declaring Variables and Methods](Basics.md#declaring-variables-and-methods) |
+|   | [Declaring Variables and Methods](Basics.md#declaring-variables-and-methods) |  
+|   | [String Interpolation](Basics.md#string-interpolation) |  
 | 2 | [Calling Variables & Functions](Basics.md#calling-variables-functions-from-another-class-and-string-interpolation) |
 | 3 | [By Using Constrcutor](Basics.md#by-using-constrcutor) |
 | 4 | [Ranges](Basics.md#ranges) |
@@ -64,7 +65,19 @@ fun mAddMultipleValues(mValue1:Int, mValue2:Int): Int { // TODO Declaring a Meth
 ```
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
-## Calling Variables, Functions from Another Class and String Interpolation
+## String Interpolation
+
+```ruby
+fun main() {
+
+  var mValueOne = "Gauthy" 
+  var mValueTwo = "World"
+
+  print("Welcome to $mValueOne $mValueTwo") // TODO - This is String Interpolation
+}
+```
+
+## Calling Variables & Functions from Another Class
 
 ```ruby
 fun main(args: Array<String>) {
