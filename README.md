@@ -335,6 +335,7 @@ __Example:__
 ## View Model Factory
 
 - If we need to pass some input data to the constructor of the viewModel, we need to create a factory class for viewModel.
+- __Reason:__ We cannot directly create the object of the ViewModel as it would not be aware of the lifecyclerOwner.
 
 __Example:__ 
 
@@ -353,7 +354,7 @@ class MyViewModelFactory constructor(private val repository: DataRepository): Vi
 ```ruby
 ViewModelProviders.of(this, MyViewModelFactory(repository)).get(MyViewModel::class.java)
 ```
-__Reason__ We cannot directly create the object of the ViewModel as it would not be aware of the lifecyclerOwner.
+
 
 # Bonus Questions
 
