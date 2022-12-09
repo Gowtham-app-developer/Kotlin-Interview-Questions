@@ -332,6 +332,29 @@ __Example:__
 
 :arrow_up: [__Back to Top__](README.md#kotlin) 
 
+## View Model Factory
+
+- If we need to pass some input data to the constructor of the viewModel, we need to create a factory class for viewModel.
+
+__Example:__ 
+
+```ruby
+class MyViewModelFactory constructor(private val repository: DataRepository): ViewModelProvider.Factory {
+
+     override fun <T : ViewModel> create(modelClass: Class<T>): T {
+        return if (modelClass.isAssignableFrom(MyViewModel::class.java!!)) {
+            MyViewModel(this.repository) as T
+        } else {
+            throw IllegalArgumentException("ViewModel Not Found")
+        }
+    }
+}
+```
+```ruby
+ViewModelProviders.of(this, MyViewModelFactory(repository)).get(MyViewModel::class.java)
+```
+__Reason__ We cannot directly create the object of the ViewModel as it would not be aware of the lifecyclerOwner.
+
 # Bonus Questions
 
 ## How Koltin Works
