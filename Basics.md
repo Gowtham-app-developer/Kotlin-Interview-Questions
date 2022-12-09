@@ -172,9 +172,11 @@ fun main(args: Array<String>) {
 ## For Loop 
 
 ```ruby  
+// TODO - By using For Loop we will Initialize, check the condition, then print the Statement and finally we Increment.  
+
 fun main(args: Array<String>) {
 
-    for (i in 1..20) { // TODO - By using For Loop we will Initialize, check the condition, then print the Statement and finally we Increment.
+    for (i in 1..20) { 
 
         if (i % 2 == 0) {
             println(i)
@@ -193,10 +195,12 @@ fun main(args: Array<String>) {
 
 ## While Loop 
 
-```ruby
+```ruby  
+// TODO - In while Loop we will Initialize, check the condition, then print the Statement and finally we Increment.  
+
 fun main(args: Array<String>) {
 
-    var i = 0 // TODO - In while Loop we will Initialize, check the condition, then print the Statement and finally we Increment.
+    var i = 0 
     
     while (i <= 10) {
         if (i % 2 == 0) {
@@ -219,13 +223,15 @@ fun main(args: Array<String>) {
 
 ## do While Loop 
 
-```ruby
+```ruby  
+// In do while Loop we will Initialize, print the Statement, then we Increment and finally we will do the condition check.  
+
 fun main(args: Array<String>) {
 
     var i = 0
 
     do {
-        if (i % 2 == 0) { // In do while Loop we will Initialize, print the Statement, then we Increment and finally we will do the condition check.
+        if (i % 2 == 0) { 
             println(i)
         }
         i++
@@ -256,7 +262,7 @@ fun main(args: Array<String>) {
             println(i)
             
            if(i==5){
-              break // When the value becomes 5 then it won't stop further.
+              break // TODO When the value becomes 5 then it won't stop further.
            }
     }
 }
@@ -270,7 +276,7 @@ fun main() {
 mLoop@ for(i in 1..9){
          for(j in 1..9){
               if(i==2 && j==2)
-              break@mLoop // We used Labeled For Loop to reflect the changes in Outer For Loop
+              break@mLoop // TODO We used Labeled For Loop to reflect the changes in Outer For Loop
             println("$i $j")
          }
     }
@@ -287,7 +293,7 @@ fun main() {
 mLoop@ for(i in 1..9){
          for(j in 1..9){
               if(i==2 && j==2)
-              continue@mLoop // When the value become i == 2 and j == 2 it omits the Value and print further.
+              continue@mLoop // TODO When the value become i == 2 and j == 2 it omits the Value and print further.
             println("$i $j")
          }
     }
