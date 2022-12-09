@@ -73,7 +73,9 @@ fun main() {
   var mValueOne = "Gauthy" 
   var mValueTwo = "World"
 
-  print("Welcome to $mValueOne $mValueTwo and the Length is ${mValueOne.length}") // TODO - This is String Interpolation
+  print("Welcome to "+ mValueOne + " " + mValueTwo)
+  print("Welcome to $mValueOne $mValueTwo") // TODO - This is String Interpolation
+  print("The Length is ${mValueOne.length}") 
 }
 ```
 
