@@ -14,8 +14,8 @@
 | 8 | [For Loop](Basics.md#for-loop) |
 | 9 | [While Loop](Basics.md#while-loop) |
 | 11 | [do While Loop](Basics.md#do-while-loop) |
-| 12 | [Break Statement](Basics.md#break-statement) |
-| 13 | [Continue Statement](Basics.md#continue-statement) |
+| 12 | [Break Statement with Labeled For Loop](Basics.md#break-statement-with-labeled-for-loop) |
+| 13 | [Continue Statement with Labeled For Loop](Basics.md#continue-statement-with-labeled-for-loop) |
 | 14 | [Function with Return Type](Basics.md#function-with-return-type) |
 | 15 | [Function as Expression](Basics.md#function-as-expression) |
 | 16 | [Need to Know](Basics.md#need-to-know) |
@@ -250,7 +250,7 @@ fun main(args: Array<String>) {
 ```
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)
 
-## Break Statement 
+## Break Statement with Labeled For Loop
 
 __Example_1__
 
@@ -285,7 +285,7 @@ mLoop@ for(i in 1..9){
 ```
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)
 
-## Continue Statement 
+## Continue Statement with Labeled For Loop
 
 ```ruby
 fun main() {	
