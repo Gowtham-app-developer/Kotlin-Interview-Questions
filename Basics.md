@@ -18,7 +18,8 @@
 | 13 | [Continue Statement with Labeled For Loop](Basics.md#continue-statement-with-labeled-for-loop) |
 | 14 | [Function with Return Type](Basics.md#function-with-return-type) |
 | 15 | [Function as Expression](Basics.md#function-as-expression) |
-| 16 | [Need to Know](Basics.md#need-to-know) |
+| 16 | [Default Arguments in Function](Basics.md#default-arguments-in-function) |
+| 17 | [Need to Know](Basics.md#need-to-know) |
 
 ## Adding Comment Line
 
@@ -337,6 +338,22 @@ fun mCheckCondition(a:Int, b:Int): Int = if(a>b)
     b // It will always return the last line
 }
 ```  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
+
+```ruby
+fun main() {
+
+  mGetDetails(1, 2)
+  
+  mGetDetails(10, 20, 25) // TODO Where 25 will Overrides the Default Value 10
+
+}
+
+fun mGetDetails(mValueOne: Int, mValueTwo: Int, mValueThree: Int = 10) { 
+  println("$mValueOne $mValueTwo $mValueThree")
+}
+```
+
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)
 
 ## Need to Know
