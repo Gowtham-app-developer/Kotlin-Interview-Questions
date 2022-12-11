@@ -18,8 +18,9 @@
 | 13 | [Continue Statement with Labeled For Loop](Basics.md#continue-statement-with-labeled-for-loop) |
 | 14 | [Function with Return Type](Basics.md#function-with-return-type) |
 | 15 | [Function as Expression](Basics.md#function-as-expression) |
-| 16 | [Default Arguments in Function](Basics.md#default-arguments-in-function) |
-| 17 | [Need to Know](Basics.md#need-to-know) |
+| 16 | [Default Functions](Basics.md#default-functions) |
+| 17 | [Named Parameters](Basics.md#named-parameters) |
+| 18 | [Need to Know](Basics.md#need-to-know) |
 
 ## Adding Comment Line
 
