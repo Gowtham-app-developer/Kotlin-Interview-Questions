@@ -65,38 +65,9 @@ __Need to Know,__
 __Need to Know__  
 
 - In Java, During Compile Time -> Compiler will Java Code will convert (i.e.) MainActivity.java in to Byte Code (i.e.) MainActivity.class
-- In Koltin,  During Compile Time -> Compiler will Kotlin Code will convert (i.e.) MainActivity.java in to Byte Code (i.e.) MainActivityKt.class
+- In Koltin,  During Compile Time -> Compiler will Kotlin Code will convert (i.e.) MainActivity.java in to Byte Code (i.e.) MainActivityKt.class  
 
-__Example using Java__
-
-```ruby
-public class JavaFile {
-
-	public static void main(String[] args) {
-
-		int sum = MyKotlinInteroperabilityKt.addNumbers(13, 4);
-		System.out.println("Printing sum from Java file :" + sum);
-	}
-
-	public static int getArea(int l, int b) {
-		return l * b;
-	}
-}
-```  
-
-__Example using Kotlin__
-
-```ruby
-fun main(args: Array<String>) {
-
-    var area = MyJavaFile.getArea(10, 50)
-    println("Printing area from Kotlin file: $area")
-}
-
-fun addNumbers(a: Int, b: Int): Int {
-    return a + b
-}
-```
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#interoperability)
 
 :arrow_up: [__Back to Top__](README.md#table-of-contents)
 
