@@ -340,6 +340,8 @@ fun mCheckCondition(a:Int, b:Int): Int = if(a>b)
 ```  
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
+## Default Functions
+
 ```ruby
 fun main() {
 
@@ -349,12 +351,31 @@ fun main() {
 
 }
 
-fun mGetDetails(mValueOne: Int, mValueTwo: Int, mValueThree: Int = 10) { 
+fun mGetDetails(mValueOne: Int, mValueTwo: Int, mValueThree: Int = 10) { // TODO Default Parameters in Parameters
   println("$mValueOne $mValueTwo $mValueThree")
 }
 ```
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
-:arrow_up: [__Back to Top__](Basics.md#table-of-contents)
+## Named Parameters  
+
+__Example__
+
+- It's a pure Kotlin Functionality which is not present in Java.
+
+```ruby
+fun main() {
+
+  mGetMarkDetails(mMarksScored = 45, mName = "Gauthy") // TODO Named Parameters
+
+}
+
+fun mGetMarkDetails(mName: String, mMarksScored: Int, mPass: String = "Pass") {
+
+  println("Name is $mName and Secured $mMarksScored. So the Result is $mPass")
+
+}
+```
 
 ## Need to Know
 
