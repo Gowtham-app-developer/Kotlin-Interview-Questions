@@ -376,7 +376,8 @@ fun mGetMarkDetails(mName: String, mMarksScored: Int, mPass: String = "Pass") {
   println("Name is $mName and Secured $mMarksScored. So the Result is $mPass")
 
 }
-```
+```  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## Need to Know
 
