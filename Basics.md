@@ -345,6 +345,8 @@ fun mCheckCondition(a:Int, b:Int): Int = if(a>b)
 
 -  If the function is called without passing arguments then the default arguments are used as function parameters.
 
+__Example__
+
 ```ruby
 fun main() {
 
