@@ -341,7 +341,9 @@ fun mCheckCondition(a:Int, b:Int): Int = if(a>b)
 ```  
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
-## Default Functions
+## Default Function Parameters
+
+-  If the function is called without passing arguments then the default arguments are used as function parameters.
 
 ```ruby
 fun main() {
@@ -360,9 +362,12 @@ fun mGetDetails(mValueOne: Int, mValueTwo: Int, mValueThree: Int = 10) { // TODO
 
 ## Named Parameters  
 
-__Example__
-
+- Kotlin allows you to specify the names of arguments that you're passing to the function. 
+- This makes the function calls more readable. 
+- It also allows you to pass the value of a parameter selectively if other parameters have default values
 - It's a pure Kotlin Functionality which is not present in Java.
+
+__Example__
 
 ```ruby
 fun main() {
