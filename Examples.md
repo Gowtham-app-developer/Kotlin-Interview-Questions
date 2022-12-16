@@ -82,6 +82,7 @@ fun addNumbers(a: Int, b: Int): Int {
     return a + b
 }
 ```  
+:arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions#interoperability)
 
 ## Extension Function
 
@@ -137,7 +138,29 @@ fun String.add(mValueOne: String, mValueTwo: String): String { // TODO Creating 
 fun Int.greaterValue(mValueOne: Int): Int { // TODO Creating Extension Function
     if (this > mValueOne) return this else return mValueOne // TODO Where this keyword refers to the mValueTwo
 }
+```  
+:arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions#extension-function)
+
+## Infix Function
+
+__Example__
+
+```ruby
+fun main() {
+
+    val mValue1: Int = 10
+    val mValue2: Int = 20
+
+    val mGreaterValue = mValue2 greaterValue mValue1 // TODO mValue2.greaterValue(mValue1)
+
+    println(mGreaterValue)
+}
+
+infix fun Int.greaterValue(mValueOne: Int): Int { // TODO Creating infix Function
+    if (this > mValueOne) return this else return mValueOne
+}
 ```
+:arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions#infix-function)
 
 ## Tailrec [Recursive] Function
 
