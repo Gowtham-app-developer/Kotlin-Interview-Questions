@@ -83,7 +83,7 @@ __Need to Know__
 
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#extension-function)
 
-:arrow_up: [__Back to Top__](README.md#extension-function)  
+:arrow_up: [__Back to Top__](README.md#table-of-contents)  
 
 ## Infix Function  
 
@@ -95,7 +95,7 @@ __Need to Know__
 
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#infix-function)
 
-:arrow_up: [__Back to Top__](README.md#infix-function) 
+:arrow_up: [__Back to Top__](README.md#table-of-contents) 
 
 ## Tailrec [Recursive] Function
 
@@ -107,7 +107,7 @@ __Need to Know__
 
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#tailrec-recursive-function)
 
-:arrow_up: [__Back to Top__](README.md#kotlin)
+:arrow_up: [__Back to Top__](README.md#table-of-contents)
 
 ## Init Keyword
 
@@ -122,7 +122,7 @@ __Need to Know__
 
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#init-keyword)  
 
-:arrow_up: [__Back to Top__](README.md#kotlin)
+:arrow_up: [__Back to Top__](README.md#table-of-contents)
 
 ## Visibility Modifiers
 
@@ -135,7 +135,7 @@ __Need to Know__
 
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#visibility-modifiers)
 
-:arrow_up: [__Back to Top__](README.md#kotlin)  
+:arrow_up: [__Back to Top__](README.md#table-of-contents)  
 
 ## Inheritance
 
@@ -148,7 +148,7 @@ __Need to Know__
 
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#inheritance)
 
-:arrow_up: [__Back to Top__](README.md#kotlin)  
+:arrow_up: [__Back to Top__](README.md#table-of-contents)  
 
 ## Abstract Class
 
@@ -160,7 +160,7 @@ __Need to Know__
 
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#abstract-class)
 
-:arrow_up: [__Back to Top__](README.md#kotlin) 
+:arrow_up: [__Back to Top__](README.md#table-of-contents) 
 
 ## Interface
 
@@ -173,7 +173,7 @@ __Need to Know__
 
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#interface)
 
-:arrow_up: [__Back to Top__](README.md#kotlin) 
+:arrow_up: [__Back to Top__](README.md#table-of-contents) 
 
 ## Data Class  
 
@@ -183,7 +183,7 @@ __Need to Know__
 
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#data-class)
 
-:arrow_up: [__Back to Top__](README.md#kotlin) 
+:arrow_up: [__Back to Top__](README.md#table-of-contents) 
 
 ## Higher Order Function
 
@@ -192,7 +192,7 @@ __Need to Know__
 
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#higher-order-function)
 
-:arrow_up: [__Back to Top__](README.md#kotlin) 
+:arrow_up: [__Back to Top__](README.md#table-of-contents) 
 
 ## Lambda Expression
 
@@ -208,7 +208,7 @@ __Example:__
  
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#lambda-expression)
 
-:arrow_up: [__Back to Top__](README.md#kotlin) 
+:arrow_up: [__Back to Top__](README.md#table-of-contents) 
 
 ## Enum 
 
@@ -218,7 +218,7 @@ __Example:__
 
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#enum)
 
-:arrow_up: [__Back to Top__](README.md#kotlin) 
+:arrow_up: [__Back to Top__](README.md#table-of-contents) 
 
 ## View Model Factory
 
