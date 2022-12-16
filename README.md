@@ -11,8 +11,9 @@
 | 4 | [When as Expression](README.md#when-as-expression) |
 | 5 | [Interoperability](README.md#interoperability) |
 | 6 | [Extension Function](README.md#extension-function) |
-| 7 | [Tailrec [Recursive] Function](README.md#tailrec-recursive-function) |
-| 8 | [Init Keyword](README.md#init-keyword) |
+| 7 | [Infix Function](README.md#infix-function) |
+| 8 | [Tailrec [Recursive] Function](README.md#tailrec-recursive-function) |
+| 9 | [Init Keyword](README.md#init-keyword) |
 
 ## Kotlin
 
