@@ -10,8 +10,9 @@
 | 3 | [var & val](README.md#var--val) |
 | 4 | [When as Expression](README.md#when-as-expression) |
 | 5 | [Interoperability](README.md#interoperability) |
-| 6 | [Tailrec [Recursive] Function](README.md#tailrec-recursive-function) |
-| 7 | [Init Keyword](README.md#init-keyword) |
+| 6 | [Extension Function](README.md#extension-function) |
+| 7 | [Tailrec [Recursive] Function](README.md#tailrec-recursive-function) |
+| 8 | [Init Keyword](README.md#init-keyword) |
 
 ## Kotlin
 
@@ -69,7 +70,18 @@ __Need to Know__
 
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#interoperability)
 
-:arrow_up: [__Back to Top__](README.md#table-of-contents)
+:arrow_up: [__Back to Top__](README.md#table-of-contents)  
+
+## Extension Function
+
+- We Can add Functions to the class without declaring it.
+- It is Similar to that of Static(i.e) Kotlin compiler converts into static functions Internally.
+- They become part of our Own class(Model) and Predefined Class(String, Int).
+- It Reduces the code and is easy to Understand.  
+
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#extension-function)
+
+:arrow_up: [__Back to Top__](README.md#extension-function)  
 
 ## Tailrec [Recursive] Function
 
