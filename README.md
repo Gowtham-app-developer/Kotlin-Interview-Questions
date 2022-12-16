@@ -104,22 +104,7 @@ __Need to Know__
 - Prefix of tailrec keyword is used.
 - __Example:__ Fibonacci type of Applications.
 
-__Example__
-
-```ruby
- fun main(args: Array<String>) {
-
-        println(getFibonacciNumber(1000, BigInteger("1"), BigInteger("0")))
-    }
-
-    private tailrec fun getFibonacciNumber(n: Int, a: BigInteger, b: BigInteger): BigInteger { // By Using the tailrec keyword
-
-        return if (n == 0)
-            b
-        else
-            getFibonacciNumber(n - 1, a + b, a)
-    }
-```  
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#tailrec-function)
 
 :arrow_up: [__Back to Top__](README.md#kotlin)
 
