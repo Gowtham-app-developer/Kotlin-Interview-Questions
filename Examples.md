@@ -236,6 +236,57 @@ class Employee(var mName: String) {
 ```
 :arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#init-keyword)  
 
+## Inheritance
+
+__Example__
+
+```ruby
+fun main() {
+
+    var dog = Dog()
+    dog.bread = "labra"
+    dog.bark()
+    dog.eat()
+
+    var cat = Cat()
+    cat.age = 7
+    cat.meow()
+    cat.eat()
+
+    var animal = Animal()
+    animal.color = "Green"
+    animal.eat()
+}
+
+open class Animal { // TODO Using open keyword it can be accessible to other classes
+
+    var color: String = ""
+
+    fun eat() {
+        println("Eat")
+    }
+}
+
+class Dog : Animal() { // TODO This class is implicitly Public Final
+
+    var bread: String = ""
+
+    fun bark() {
+        println("Bark")
+    }
+}
+
+class Cat : Animal() {
+
+    var age: Int = 0
+
+    fun meow() {
+        println("Meow")
+    }
+}
+```
+:arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#inheritance)  
+
 ## Visibility Modifiers
 
 __Example__
