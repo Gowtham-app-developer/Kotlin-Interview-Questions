@@ -83,6 +83,18 @@ __Need to Know__
 
 :arrow_up: [__Back to Top__](README.md#extension-function)  
 
+## Infix Function  
+
+- Infix Notation is most commonly used while doing arithmetical and logical Operations.
+- It can be a Member Function or Extension Function.
+- All Infix Functions are Extension Function but all Extension Function are not infix Function.
+- Can have only one parameter and infix keyword as prefix.
+- It increases the readability of the Code.
+
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#infix-function)
+
+:arrow_up: [__Back to Top__](README.md#infix-function) 
+
 ## Tailrec [Recursive] Function
 
 - It is mainly used to prevent Stack Overflow Exception due to the limit of Stack Memory.
