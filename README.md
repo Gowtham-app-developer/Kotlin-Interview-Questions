@@ -104,7 +104,7 @@ __Need to Know__
 - Prefix of tailrec keyword is used.
 - __Example:__ Fibonacci type of Applications.
 
-:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#tailrec-function)
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#tailrec-recursive-function)
 
 :arrow_up: [__Back to Top__](README.md#kotlin)
 
