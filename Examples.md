@@ -167,18 +167,19 @@ infix fun Int.greaterValue(mValueOne: Int): Int { // TODO Creating infix Functio
 __Example__
 
 ```ruby
- fun main(args: Array<String>) {
+fun main(args: Array<String>) {
 
-        println(getFibonacciNumber(1000, BigInteger("1"), BigInteger("0")))
-    }
+    println(getFibonacciNumber(1000, BigInteger("1"), BigInteger("0")))
+}
 
-    private tailrec fun getFibonacciNumber(n: Int, a: BigInteger, b: BigInteger): BigInteger { // By Using the tailrec keyword
+private tailrec fun getFibonacciNumber(
+    n: Int,
+    a: BigInteger,
+    b: BigInteger
+): BigInteger { // By Using the tailrec keyword
 
-        return if (n == 0)
-            b
-        else
-            getFibonacciNumber(n - 1, a + b, a)
-    }
+    return if (n == 0) b else getFibonacciNumber(n - 1, a + b, a)
+}
 ```  
 
 :arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions#tailrec-recursive-function)
