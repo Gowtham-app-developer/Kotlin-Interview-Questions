@@ -143,7 +143,7 @@ __Need to Know__
 - The Open keyword  allows other classes to inherit from this class.
 - It provides Code Reusability and Method Overriding.
 - Types - Single Inheritance, Multilevel Inheritance and Hierarchical Inheritance.
-- __Note:__ Any Class is the base class of all the class which it contains functions such as equals(), hashcode() and toString()
+- __Note:__ Any Class is the base class (i.e.) Super class of all the classes present at the Top which it contains functions such as equals(), hashcode() and toString()
 
 __Example__
 
