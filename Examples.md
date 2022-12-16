@@ -81,6 +81,33 @@ fun main(args: Array<String>) {
 fun addNumbers(a: Int, b: Int): Int {
     return a + b
 }
+```  
+
+## Extension Function
+
+__Example 1__
+
+```ruby
+fun main() {
+
+    var mStudent = Student()
+
+    println("Result: ${mStudent.mGetMarkDetails(45)}")
+
+    println("Result: ${mStudent.mGetAdmissionDetails(2009)}")
+}
+
+fun Student.mGetAdmissionDetails(mValue: Int): Boolean { // TODO Extension Function
+    return mValue < 2000
+}
+
+class Student {
+
+    fun mGetMarkDetails(mValue: Int): Boolean {
+        return mValue > 40
+    }
+}
+
 ```
 
 ## Tailrec [Recursive] Function
