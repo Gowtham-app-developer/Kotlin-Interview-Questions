@@ -14,6 +14,7 @@
 | 7 | [Infix Function](README.md#infix-function) |
 | 8 | [Tailrec [Recursive] Function](README.md#tailrec-recursive-function) |
 | 9 | [Init Keyword](README.md#init-keyword) |
+| 10 | [Inheritance](README.md#inheritance) |
 
 ## Kotlin
 
@@ -145,53 +146,8 @@ __Need to Know__
 - Types - Single Inheritance, Multilevel Inheritance and Hierarchical Inheritance.
 - __Note:__ Any Class is the base class (i.e.) Super class of all the classes present at the Top which it contains functions such as equals(), hashcode() and toString()
 
-__Example__
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#inheritance)
 
-```ruby
-fun main(args: Array<String>) {
-
-    var dog = Dog()
-    dog.bread = "labra"
-    dog.bark()
-    dog.eat()
-
-    var cat = Cat()
-    cat.age = 7
-    cat.meow()
-    cat.eat()
-
-    var animal = Animal()
-    animal.color = "Green"
-    animal.eat()
-}
-
-open class Animal {
-
-    var color: String = ""
-
-    fun eat() {
-        println("Eat")
-    }
-}
-
-class Dog : Animal() {     
-
-    var bread: String = ""
-
-    fun bark() {
-        println("Bark")
-    }
-}
-
-class Cat : Animal() {     
-
-    var age: Int = 0
-
-    fun meow() {
-        println("Meow")
-    }
-}
-```
 :arrow_up: [__Back to Top__](README.md#kotlin)  
 
 ## Abstract Class
