@@ -203,7 +203,7 @@ class Employee(mName:String){
   var mName:String = "Gokul"
     
     init{
-        print("The Sum is ${mName}")
+        println("The Sum is ${mName}")
     }
     
 }
@@ -211,29 +211,27 @@ class Employee(mName:String){
 __Example using Secondary Constructor__
 
 ```ruby
-fun main() {	
-  
-    var mValueOne = Employee ("Kholi")
-    
-    var mValueTwo = Employee ("Raja", 16)
+fun main() {
+
+    var mValueOne = Employee("Kholi")
+
+    var mValueTwo = Employee("Raja", 16)
     mValueTwo.mName = "Gowtham"
-    
+
     println("The Sum is ${mValueTwo.mName}")
-    
 }
 
-class Employee(var mName:String){
-    
-  var mVarName:String = "Ganesh"
-    
-    init{
+class Employee(var mName: String) {
+
+    var mVarName: String = "Ganesh"
+
+    init {
         println("The Sum is ${mName}")
     }
-    
-    constructor(_mName:String, mAge:Int):this(_mName){
+
+    constructor(_mName: String, mAge: Int) : this(_mName) {
         println("The Sum is ${_mName} and ${mAge}")
     }
-   
 }
 ```
 :arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#init-keyword)  
