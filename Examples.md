@@ -107,7 +107,36 @@ class Student {
         return mValue > 40
     }
 }
+```  
 
+__Example 2__
+
+```ruby
+fun main() {
+
+    val mString1: String = "Hello "
+    val mString2: String = "World"
+    val mString3: String = "Hey "
+
+    println(mString3 + mString1 + mString2) // TODO With out creating the Extension Function the code will be like this
+
+    println(mString3.add(mString1, mString2)) // TODO Calling the Extension Function
+
+    val mValue1: Int = 10
+    val mValue2: Int = 20
+
+    val mGreaterValue = mValue2.greaterValue(mValue1) // TODO Calling the Extension Function
+
+    println(mGreaterValue)
+}
+
+fun String.add(mValueOne: String, mValueTwo: String): String { // TODO Creating Extension Function
+    return this + mValueOne + mValueTwo // TODO Where this keyword refers to the mString3
+}
+
+fun Int.greaterValue(mValueOne: Int): Int { // TODO Creating Extension Function
+    if (this > mValueOne) return this else return mValueOne // TODO Where this keyword refers to the mValueTwo
+}
 ```
 
 ## Tailrec [Recursive] Function
