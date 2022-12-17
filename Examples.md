@@ -358,10 +358,12 @@ fun main() {
 
 abstract class Person {
 
-    abstract fun mWork() // TODO abstract properties are "open" by default
+    abstract fun mWork() // TODO abstract properties are "open" by default  
+    
     open fun mStudy() { // TODO open Method
         println("Kotlin")
-    }
+    }  
+    
     fun mEat() { // TODO default Method
         println("Dhosa")
     }
