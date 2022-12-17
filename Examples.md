@@ -343,6 +343,39 @@ class Student {
 ```  
 :arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#visibility-modifiers)  
 
+## Abstract Class
+
+__Example__
+
+```ruby 
+fun main() {
+
+    val mStudent = Student()
+    mStudent.mStudy()
+    mStudent.mEat()
+    mStudent.mWork()
+}
+
+abstract class Person {
+
+    abstract fun mWork() // TODO abstract properties are "open" by default
+    open fun mStudy() { // TODO open Method
+        println("Kotlin")
+    }
+    fun mEat() { // TODO default Method
+        println("Dhosa")
+    }
+}
+
+class Student : Person() { // TODO Subclass or Derived Class
+
+    override fun mWork() { // TODO Method Must Override or it will throw compile time error
+        println("Developer")
+    }
+}
+```  
+:arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#abstract-class)  
+
 ## Interface
 
 __Example__
