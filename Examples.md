@@ -390,8 +390,9 @@ fun main() {
     mButton.onClick()
 }
 
-interface MyInterfaceListener { // TODO Interfaces are not a class and it consists of both abstract
-                                // and normal methods.
+// TODO Interfaces are not a class and it consists of both abstract and normal methods.  
+
+interface MyInterfaceListener {  
 
     var mInt: Int // TODO By default the properties present in an interface are abstract.
 
@@ -402,8 +403,7 @@ interface MyInterfaceListener { // TODO Interfaces are not a class and it consis
     }
 }
 
-interface MySecondInterfaceListener { // TODO Interfaces are not a class and it consists of both
-                                      // abstract and normal methods.
+interface MySecondInterfaceListener { 
 
     var mInt: Int // TODO By default the properties present in an interface are abstract.
 
