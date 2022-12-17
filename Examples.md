@@ -493,7 +493,29 @@ object Student : Animals() {
 }
 ```  
 
-:arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#data-class)  
+:arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#object-keyword)  
+
+## Companion Object
+
+__Example__
+
+```ruby
+fun main() {
+
+    Students.mSound()
+}
+
+class Students {
+
+    companion object {
+        fun mSound() { // TODO Behaves like a Static
+            println("Woww")
+        }
+    }
+}
+```  
+
+:arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#companion-object)  
 
 ## Higher Order Functions
 
