@@ -153,11 +153,11 @@ __Need to Know__
 
 ## Abstract Class
 
-- In Kotlin, By default all the abstract Properties are "open" in nature.
 - Abstract Classes are partially defined classes which are declared using abstract keywords.
 - It can have both abstract (no body) and non-abstract methods (method with the body).
 - If a class contains partial implementation then we should declare a class as abstract and it cannot be instantiated.
 - If we define any properties or methods in abstract class then we must override that properties or methods in the sub class.
+- In Kotlin, By default all the abstract Properties are "open" in nature.
 
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#abstract-class)
 
@@ -165,12 +165,13 @@ __Need to Know__
 
 ## Interface
 
-- Interfaces are not a class and it consists of both abstract and normal methods.
-- It contains only the absract property (i.e.) we cannot initialize any variables inside the interface.
-- By default the properties present in an interface are abstract.
-- Declared with the interface keyword.
-- Similar to abstract class we cannot create an instance in Interface. 
+- Interfaces are considered to be fully Abstract class but they are not a class which is declared using the keyword Interface.
+- By default the properties and methods present in an interface are abstract.
+- It consists of both abstract and normal methods.
 - Normal methods are public and open by default not final.
+- The variables are only in abstract Nature (i.e.) we cannot initialize any variables inside the interface.
+- Similar to abstract class we cannot create an instance in Interface. 
+- It is used to achieve abstraction and multiple inheritance.
 
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#interface)
 
