@@ -486,7 +486,7 @@ object Student : Animals() {
         return "Gauthy is Studying 4th Standard C Section"
     }
 
-    override fun mSound() { // It Supports Inheritance
+    override fun mSound() { // TODO It Supports Inheritance
         super.mSound()
         println("Woww2")
     }
