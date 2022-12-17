@@ -155,7 +155,7 @@ __Need to Know__
 
 - In Kotlin, By default all the abstract Properties are "open" in nature.
 - Abstract Classes are partially defined classes which are declared using abstract keywords.
-- It can have both abstract and non-abstract methods (method with the body).
+- It can have both abstract (no body) and non-abstract methods (method with the body).
 - If a class contains partial implementation then we should declare a class as abstract and it cannot be instantiated.
 - If we define any properties or methods in abstract class then we must override that properties or methods in the sub class.
 
