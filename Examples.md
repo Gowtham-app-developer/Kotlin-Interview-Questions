@@ -459,6 +459,42 @@ data class User(var name: String, var id: Int)
 ```
 :arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#data-class)  
 
+## Object Keyword
+
+__Example 1__
+
+```ruby
+fun main() {
+
+    println("${Student.mStandard()}")
+
+    Student.mSound()
+}
+
+open class Animals {
+
+    open fun mSound() {
+        println("Woww")
+    }
+}
+
+object Student : Animals() {
+
+    var mId: Int = 1 // TODO Behaves like a Static Variable
+
+    fun mStandard(): String { // TODO Behaves like a Static Method
+        return "Gauthy is Studying 4th Standard C Section"
+    }
+
+    override fun mSound() { // It Supports Inheritance
+        super.mSound()
+        println("Woww2")
+    }
+}
+```  
+
+:arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#data-class)  
+
 ## Higher Order Functions
 
 __Example 1__
