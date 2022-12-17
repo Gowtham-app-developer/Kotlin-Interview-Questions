@@ -441,14 +441,16 @@ fun main(args: Array<String>) {
     var user1 = User("Gowtham", 10)
 
     var user2 = User("Raja", 20)
-    
-    if (user1 == user2)
-        println("Equal")
-    else
-        println("Not equal")
-        
-    println(user1.toString())
 
+    // TODO Comparing Two Object References but by using Data class it will compare only the Values
+
+    if (user1 == user2) println("Equal") else println("Not equal")
+
+    println(
+        user1.toString()
+    ) // TODO The Data class will give the default implementation of toString()
+
+    // TODO Copy the data from the user1 to other user and also  we can change the values
     var newUser = user1.copy(id = 40)
     println(newUser)
 }
