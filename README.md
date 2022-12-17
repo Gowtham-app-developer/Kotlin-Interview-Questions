@@ -187,6 +187,19 @@ __Need to Know__
 
 :arrow_up: [__Back to Top__](README.md#table-of-contents) 
 
+## Object Keyword
+
+- In Kotlin we cannot declare using Static Variables and Methods.
+- By Using the Object keyword it creates a Singleton Object while it runs (i.e) it internally creates a class and an object/instance.
+- By declaring Properties,Methods and Initializers present inside the Object keyword will act like a Static.
+- We don’t need to create an instance Manually.
+- It Cannot have constructors.
+
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#object-keyword)
+
+:arrow_up: [__Back to Top__](README.md#table-of-contents) 
+
+
 ## Higher Order Function
 
 - The Function passed as parameter to another function or a Function can return another function or It can do both.
