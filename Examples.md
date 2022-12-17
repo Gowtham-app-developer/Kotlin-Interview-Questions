@@ -262,7 +262,7 @@ open class Animal { // TODO Using open keyword it can be accessible to other cla
 
     var color: String = ""
 
-    fun eat() {
+    open fun eat() {
         println("Eat")
     }
 }
@@ -274,6 +274,11 @@ class Dog : Animal() { // TODO This class is implicitly Public Final
     fun bark() {
         println("Bark")
     }
+
+    override fun eat() {
+        super.eat() // TODO Calling super class Method
+        println("NonVeg")
+    }
 }
 
 class Cat : Animal() {
@@ -282,6 +287,13 @@ class Cat : Animal() {
 
     fun meow() {
         println("Meow")
+    }
+
+    override fun eat() {
+        // TODO We are defining the Animal Name explicilty because the interface having the same
+        // method name
+        super<Animal>.eat()
+        println("Veg")
     }
 }
 ```
