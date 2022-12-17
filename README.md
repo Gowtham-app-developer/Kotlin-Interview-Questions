@@ -15,6 +15,13 @@
 | 8 | [Tailrec [Recursive] Function](README.md#tailrec-recursive-function) |
 | 9 | [Init Keyword](README.md#init-keyword) |
 | 10 | [Inheritance](README.md#inheritance) |
+| 11 | [Visibility Modifiers](README.md#visibility-modifiers) |
+| 12 | [Abstract Class](README.md#abstract-class) |
+| 13 | [Interface](README.md#interface) |
+| 14 | [Data Class](README.md#data-class) |
+| 15 | [Object Keyword](README.md#object-keyword) |
+| 16 | [Companion Object](README.md#companion-object) |  
+| 17 | [Enum](README.md#enum) |
 
 ## Kotlin
 
@@ -209,6 +216,24 @@ __Need to Know__
 
 :arrow_up: [__Back to Top__](README.md#table-of-contents) 
 
+## Enum 
+
+- Enum (Enumeration) is a data type that contains a fixed set of constants which is declared using the keyword enum. 
+- When we require a predefined set of values which represents some kind of data, we use enum. 
+- In Java enum constants are implicitly static and final.
+
+__Need to Know,__
+
+- In other words, When we have a finite number of constant values then we can group them together by using enum class.
+- Enum objects are constant values and once we create cannot be changed.
+- Each enum constant is a seperate instance of the enum class (i.e.) They have properties of name, Ordinal and Methods of values(), valueOf().
+- We can assign our own properties to each enum object by using a constructor.
+- Enum classes can implement interfaces but they cannot inherited from abstract classes or open classes
+
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#enum)
+
+:arrow_up: [__Back to Top__](README.md#table-of-contents) 
+
 ## Higher Order Function
 
 - The Function passed as parameter to another function or a Function can return another function or It can do both.
@@ -231,16 +256,6 @@ __Example:__
 - Where, x,y are parameters and x+y are method body
  
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#lambda-expression)
-
-:arrow_up: [__Back to Top__](README.md#table-of-contents) 
-
-## Enum 
-
-- Enum (Enumeration)  is a data type that contains a fixed set of constants which is declared using the keyword enum. 
-- When we require a predefined set of values which represents some kind of data, we use enum. 
-- In Java enum constants are implicitly static and final.
-
-:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#enum)
 
 :arrow_up: [__Back to Top__](README.md#table-of-contents) 
 
