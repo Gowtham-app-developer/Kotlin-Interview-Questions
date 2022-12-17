@@ -199,6 +199,15 @@ __Need to Know__
 
 :arrow_up: [__Back to Top__](README.md#table-of-contents) 
 
+## Companion Object  
+
+- In Kotlin we cannot declare using Static Variables and Methods.
+- The Companion Objects are similar to that of the Object keyword but we should declare within class.
+- By declaring a Variables and Methods inside the Companion Object will change into the Static Variables and Methods during the run time.
+
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#companion-object)
+
+:arrow_up: [__Back to Top__](README.md#table-of-contents) 
 
 ## Higher Order Function
 
