@@ -122,20 +122,6 @@ __Need to Know__
 
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#init-keyword)  
 
-:arrow_up: [__Back to Top__](README.md#table-of-contents)
-
-## Visibility Modifiers
-
-- It provides access control for classes, Functions etc.
-- By using the Following keywords (i.e.) Public, Protected, internal and Private.
-- By Default all the Classes and Functions are public in nature.
-- __Public:__  We can access it anywhere (inside and even outside) the Class.
-- __Private:__  We can access it only inside the Class.
-- __Internal:__  We can access it only inside our module.
-- __Protected:__  The Modifier Protected is not applicable for top level Function and Classes (i.e) It can be accessible only within a class or Subclass not     outside the Class.
-
-:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#visibility-modifiers)
-
 :arrow_up: [__Back to Top__](README.md#table-of-contents)  
 
 ## Inheritance
@@ -148,6 +134,20 @@ __Need to Know__
 - __Note:__ Any Class is the base class (i.e.) Super class of all the classes present at the Top which it contains functions such as equals(), hashcode() and toString()
 
 :arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#inheritance)
+
+:arrow_up: [__Back to Top__](README.md#table-of-contents)  
+
+## Visibility Modifiers
+
+- It provides access control for classes, Functions etc.
+- By using the Following keywords (i.e.) Public, Protected, internal and Private.
+- By Default all the Classes and Functions are public in nature.
+- __Public:__  We can access it anywhere (inside and even outside) the Class.
+- __Private:__  We can access it only inside the Class.
+- __Internal:__  We can access it only inside our module.
+- __Protected:__  The Modifier Protected is not applicable for top level Function and Classes (i.e) It can be accessible only within a class or Subclass not     outside the Class.
+
+:arrow_right:  [__Click For Example__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/blob/main/Examples.md#visibility-modifiers)
 
 :arrow_up: [__Back to Top__](README.md#table-of-contents)  
 
