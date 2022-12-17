@@ -383,32 +383,49 @@ class Student : Person() { // TODO Subclass or Derived Class
 __Example__
 
 ```ruby
-fun main(args: Array<String>) {
+fun main() {
 
-    var mPerson = Person()
-    mPerson.mSubmitButtonClick()
-    mPerson.mToastButtonClick()
+    val mButton = MyButton()
+    mButton.onTouch()
+    mButton.onClick()
 }
 
-interface myButtonClick{
+interface MyInterfaceListener { // TODO Interfaces are not a class and it consists of both abstract
+                                // and normal methods.
 
-    fun mSubmitButtonClick()
-    
-    fun mToastButtonClick(){
-        
+    var mInt: Int // TODO By default the properties present in an interface are abstract.
+
+    fun onTouch() // TODO By default the methods present in an interface are abstract.
+
+    fun onClick() { // TODO Normal Methods are public and Open not final
+        println("Dhosa")
     }
-    
 }
 
-class Person : myButtonClick {
-    
-    override fun mSubmitButtonClick(){
-        println("Button is Clicked")
+interface MySecondInterfaceListener { // TODO Interfaces are not a class and it consists of both
+                                      // abstract and normal methods.
+
+    var mInt: Int // TODO By default the properties present in an interface are abstract.
+
+    fun onTouch() // TODO By default the methods present in an interface are abstract.
+
+    fun onClick() { // TODO Normal Methods are public and Open not final
+        println("Two Dhosa")
     }
-    
-     override fun mToastButtonClick(){
-        super<myButtonClick>.mToastButtonClick()
-        println("Toast Button is Clicked")
+}
+
+class MyButton : MyInterfaceListener, MySecondInterfaceListener { // TODO Subclass or Derived Class
+
+    override var mInt: Int = 1
+
+    override fun onTouch() { // TODO Method Must Override or it will throw compile time error
+        println("Developer")
+    }
+
+    override fun onClick() {
+        super<MyInterfaceListener>.onClick()
+        super<MySecondInterfaceListener>.onClick()
+        println("Idli")
     }
 }
 ```
