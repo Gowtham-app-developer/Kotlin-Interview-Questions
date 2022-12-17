@@ -304,45 +304,41 @@ class Cat : Animal() {
 __Example__
 
 ```ruby
-fun main() {	
-  
-   var mPerson = Employee()
-   
-   var mStudent = Student()
-   println(mStudent.mValueOne)
-   // println(mStudent.mValueTwo)
-   // println(mStudent.mValueThree)
-   println(mStudent.mValueFour)
-    
+fun main() {
+
+    var mPerson = Employee()
+
+    var mStudent = Student()
+    println(mStudent.mValueOne)
+    // println(mStudent.mValueTwo) // TODO Not Applicable because private in Nature
+    // println(mStudent.mValueThree) // TODO Not Applicable because protected in Nature
+    println(mStudent.mValueFour)
 }
 
-open class Person{
-  
+open class Person {
+
     public var mValueOne: String = "Data_1"
     private var mValueTwo: String = "Data_2"
     protected var mValueThree: String = "Data_3"
     internal var mValueFour: String = "Data_4"
-   
 }
 
 class Employee : Person() {
-    
-    init{
+
+    init {
         println(mValueOne)
-        // println(mValueTwo)
+        // println(mValueTwo) // TODO Not Applicable because private in Nature
         println(mValueThree)
         println(mValueFour)
     }
-   
 }
 
 class Student {
-    
+
     public var mValueOne: String = "StuData_1"
     private var mValueTwo: String = "StuData_2"
     protected var mValueThree: String = "StuData_3"
     internal var mValueFour: String = "StuData_4"
-   
 }
 ```  
 :arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#visibility-modifiers)  
