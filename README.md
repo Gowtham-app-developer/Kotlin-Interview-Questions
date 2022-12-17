@@ -126,7 +126,8 @@ __Need to Know__
 
 ## Visibility Modifiers
 
-- It Supports Public, Protected, internal and Private.
+- It provides access control for classes, Functions etc.
+- By using the Following keywords (i.e.) Public, Protected, internal and Private.
 - By Default all the Classes and Functions are public in nature.
 - __Public:__  We can access it anywhere (inside and even outside) the Class.
 - __Private:__  We can access it only inside the Class.
