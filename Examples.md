@@ -517,6 +517,87 @@ class Students {
 
 :arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#companion-object)  
 
+## Enum
+
+__Example 1__
+
+```ruby
+enum class CreditCardType {
+    SILVER, // TODO Ordinal = 0, name = "SILVER"
+    GOLD, // TODO Ordinal = 1, name = "GOLD"
+    PLATINUM // TODO Ordinal = 2, name = "PLATINUM"
+}
+
+fun main() {
+
+    // TODO Enum constants are objects of enum class type.
+    val mCardType: CreditCardType = CreditCardType.GOLD
+
+    // TODO Each enum object has two properties: ordinal and name
+    println(CreditCardType.GOLD.ordinal)
+    println(CreditCardType.GOLD) // TODO (OR) CreditCardType.GOLD.name
+
+    // TODO Each enum object has two methods: values() and valueOf()
+    val myConstants: Array<CreditCardType> = CreditCardType.values() // TODO It returns array of Objects
+    myConstants.forEach { println(it) }
+
+    // TODO Using in 'when' statement
+    when (mCardType) {
+        CreditCardType.SILVER -> println("Gauthy has silver card")
+        CreditCardType.GOLD -> println("Gauthy has gold card")
+        CreditCardType.PLATINUM -> println("Gauthy has platinum card")
+    }
+}
+```
+
+__Example 2 (Using Constructor)__
+
+```ruby
+enum class CreditCardType(
+    val color: String,
+    val maxLimit: Int = 1000
+) { // TODO Setting Default Value in Second Parameter
+    SILVER("Red", 500),
+    GOLD("White"),
+    PLATINUM("Green")
+}
+
+fun main() {
+
+    // TODO Enum constants are objects of enum class type.
+    println(CreditCardType.GOLD.color)
+    println(CreditCardType.GOLD.maxLimit)
+}
+```
+__Example 3 (Using Interface)__
+
+```ruby
+enum class CreditCardType(val color: String, val maxLimit: Int = 1000) : MCardCashBack {
+    SILVER("Red", 500) {
+        override fun getCashbackValue(): Int {
+            return 1
+        }
+    },
+    GOLD("White") {
+        override fun getCashbackValue(): Int = 10
+    },
+    PLATINUM("Green") {
+        override fun getCashbackValue(): Int = 100
+    },
+}
+
+interface MCardCashBack {
+    fun getCashbackValue(): Int
+}
+
+fun main() {
+
+    println(CreditCardType.GOLD.getCashbackValue())
+}
+```
+
+:arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#companion-object)  
+
 ## Higher Order Functions
 
 __Example 1__
@@ -589,142 +670,3 @@ interface MyInterface {
 }
 ```
 :arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#higher-order-functions)  
-
-## Enum
-
-__Example 1__
-
-```ruby
-enum class CreditCardType {
-    SILVER, // Ordinal = 0, name = "SILVER"
-    GOLD, // Ordinal = 1, name = "GOLD"
-    PLATINUM // Ordinal = 2, name = "PLATINUM"
-}
-
-
-fun main() {
-
-   // TODO Enum constants are objects of enum class type.
-    val mCardType: CreditCardType = CreditCardType.GOLD
-    
-   // TODO Each enum object has two properties: ordinal and name
-    println(CreditCardType.GOLD.ordinal)
-    println(CreditCardType.GOLD)    // OR CreditCardType.GOLD.name
-    
-    // TODO Each enum object has two methods: values() and valueOf()
-    val myConstants: Array<CreditCardType> = CreditCardType.values() // It returns array of Objects
-    myConstants.forEach { println(it) }
-    
-    // TODO Using in 'when' statement
-     when(mCardType) {
-        CreditCardType.SILVER -> println("Gauthy has silver card")
-        CreditCardType.GOLD -> println("Gauthy has gold card")
-        CreditCardType.PLATINUM -> println("Gauthy has platinum card")
-    }
-}
-```
-
-__Example 2 (Using Constructor)__
-
-```ruby
-enum class CreditCardType(val color: String, val maxLimit: Int = 1000) { // Setting Default Value in Second Parameter
-    SILVER("Red", 500),
-    GOLD("White"), 
-    PLATINUM("Green")
-}
-
-
-fun main() {
-
-   // TODO Enum constants are objects of enum class type.
-    println(CreditCardType.GOLD.color)
-    println(CreditCardType.GOLD.maxLimit)
-    
-}
-```
-__Example 3 (Using Interface)__
-
-```ruby
-enum class CreditCardType(val color: String, val maxLimit: Int = 1000): MCardCashBack {
-    SILVER("Red", 500){
-        override fun getCashbackValue(): Int {
-            return 1;
-        }
-    },
-    GOLD("White"){
-        override fun getCashbackValue(): Int = 10
-    }, 
-    PLATINUM("Green"){
-        override fun getCashbackValue(): Int = 100
-    },
-}
-
-interface MCardCashBack {
-    fun getCashbackValue(): Int
-}
-
-fun main() {
-
-    println(CreditCardType.GOLD.getCashbackValue())
-    
-}
-```
-
-## Object Keyword
-
-__Example 1__
-
-```ruby
-fun main() {
-  
-    println(EmployeeDetails.id) 
-    
-    println(EmployeeDetails.getGender())
-}
-
-object EmployeeDetails {
-    
-    var id: String = "AB1000" // Behaves like a STATIC variable
-    
-    fun getGender(): String{ // Behaves like a STATIC method
-        
-        return "Male"
-    }
-}
-```
-__Example 2 (Using Inheritance)__
-
-```ruby
-fun main() {
-  
-    EmployeeDetails.id = "BC1000"
-    println(EmployeeDetails.id)
-    
-    println(EmployeeDetails.getGender())
-    
-    EmployeeDetails.myMethod("Hello World")
-}
-
-open class BaseClass {
-    
-    open fun myMethod(str: String){
-        println("Base Class")
-    }
-}
-
-object EmployeeDetails: BaseClass() { // Inheriting from the BaseClass 
-    
-    var id: String = "AB1000" // Behaves like a STATIC variable
-    
-    fun getGender(): String{ // Behaves like a STATIC method
-        
-        return "Male"
-    }
-    
-    override fun myMethod(str: String){ // Currently, Behaving like a STATIC method
-        super.myMethod(str)
-         println("Object Class: " +str)
-    }
-}
-```  
-:arrow_left: [__Back to Defintion__](https://github.com/Gowtham-app-developer/Kotlin-Interview-Questions/tree/main#object-keyword)
