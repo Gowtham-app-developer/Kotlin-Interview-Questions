@@ -20,7 +20,8 @@
 | 15 | [Function as Expression](Basics.md#function-as-expression) |
 | 16 | [Default Function Parameters](Basics.md#default-function-parameters) |
 | 17 | [Named Parameters](Basics.md#named-parameters) |
-| 18 | [Need to Know](Basics.md#need-to-know) |
+| 18 | [Lateinit Keyword](Basics.md#lateinit-keyword) |
+| 19 | [Need to Know](Basics.md#need-to-know) |
 
 ## Adding Comment Line
 
@@ -385,6 +386,27 @@ fun mGetMarkDetails(mName: String, mMarksScored: Int, mPass: String = "Pass") {
 }
 ```  
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
+
+## Lateinit Keyword
+
+- It can be Used when Values of the Variables which are initialized only in the Future.
+- It is applicable only with mutable[ var ] and non-nullable data types.
+
+__Need to Know,__
+
+- If we try to access the lateinit variable without initializing the value then it will throw a UninitializedPropertyAccessException at the run time.  
+
+__Example__
+
+```ruby
+fun main() {
+  
+  lateinit var mString: String // TODO using lateinit keyword to initialize the value in Future
+  mString = "Hello World!!!"
+  println(mString)
+
+}
+```
 
 ## Need to Know
 
