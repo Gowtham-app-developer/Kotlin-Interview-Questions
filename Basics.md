@@ -20,8 +20,9 @@
 | 15 | [Function as Expression](Basics.md#function-as-expression) |
 | 16 | [Default Function Parameters](Basics.md#default-function-parameters) |
 | 17 | [Named Parameters](Basics.md#named-parameters) |
-| 18 | [Lateinit Keyword](Basics.md#lateinit-keyword) |
-| 19 | [Need to Know](Basics.md#need-to-know) |
+| 18 | [Lateinit Keyword](Basics.md#lateinit-keyword) |  
+| 19 | [Lazy Initialization](Basics.md#lazy-initialization) |
+| 20 | [Need to Know](Basics.md#need-to-know) |
 
 ## Adding Comment Line
 
@@ -407,7 +408,32 @@ fun main() {
 
 }
 ```  
-:arrow_up: [__Back to Top__](Basics.md#lateinit-keyword)  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
+
+## Lazy Initialization  
+
+- It is mainly used to prevent unnecessary initialization of Objects.
+- Variables will not be initialized unless we not use it in our Code.
+- If we initialize once then we will get the value from cache memory by next time Which makes the thread safe.
+- It is applicable only with immutable[ val ] and non-nullable data types. 
+
+__Need to Know,__
+
+- lazy can only be used for val properties, whereas lateinit can only be applied to var because it can't be compiled to a final field, thus no immutability can be guaranteed. 
+
+__Example__
+
+```ruby
+fun main() {
+    
+    val mInt: Int by lazy {3} 
+    
+    println(mInt * 3) // TODO mInt will get initilaized only for the First Time
+    println(mInt * 4) // TODO For the Second Time it will load from the Cache Memory
+ 
+}
+```  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## Need to Know
 
