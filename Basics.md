@@ -39,7 +39,7 @@
 ```ruby
 fun main(args: Array<String>) {
 
-    var mString: String // TODO Declaring Mutable String Explicitly
+    lateinit var mString: String // TODO Declaring Mutable String Explicitly
     mString = "Hello World!!!"
     println(mString)
 
