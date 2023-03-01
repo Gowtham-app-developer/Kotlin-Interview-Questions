@@ -406,7 +406,8 @@ fun main() {
   println(mString)
 
 }
-```
+```  
+:arrow_up: [__Back to Top__](Basics.md#lateinit-keyword)  
 
 ## Need to Know
 
