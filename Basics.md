@@ -669,7 +669,7 @@ fun main() {
 ## Set
 
 - Set Stores a List of unique Elements 
-- Set is Immutable, Fixed Size, Read Only	
+- Set is Immutable, Fixed Size & Read Only.	
 	
 __Example [Using setOf]__  
 	
