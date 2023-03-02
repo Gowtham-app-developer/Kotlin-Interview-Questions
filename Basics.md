@@ -552,7 +552,7 @@ fun main() {
 - Arrays in Kotlin are mutable in nature but have Fixed Size.
 - Arrays is a collection of Elements (i.e.) Int, Strings and So on.
     
-__Example__
+__Example (Using Array)__
     
 ```ruby
 fun main() {
@@ -560,7 +560,7 @@ fun main() {
   // TODO Elements: 1 1 1 1 1
   // TODO Index   : 0 1 2 3 4   
 
-  var mArrayList = Array < Int > (5) {
+  var mArrayList = Array < Int > (5) { // TODO Mutable, Fixed Size
     1
   } // TODO inside the Lambda we have to define the initial value of all the Elements. 
 
@@ -573,11 +573,32 @@ fun main() {
   }
 
   for (mIndex in 0..mArrayList.size - 1) {
-    println(mIndex)
+    println(mIndex) 
   }
 
 }    
 ```  
+    
+__Example (Using listOf)__
+    
+```ruby
+fun main() {
+
+  // TODO Elements: 
+  // TODO Index   : 0 1 2 3 4   
+
+  var mList = listOf < String > ("Apple", "Cat", "Kotlin", "Dart") // TODO Immutable, Fixed Size, Read Only
+
+  for (mElements in mList) { // TODO Using Individual Element (i.e) Objects
+    print(mElements)
+  }
+
+  for (mIndex in 0..mList.size - 1) {  // TODO Using Index of the Element (i.e) Objects
+    println(mList[mIndex]) // TODO also we can use mList.get(mIndex)
+  }
+
+}
+```
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## Need to Know
