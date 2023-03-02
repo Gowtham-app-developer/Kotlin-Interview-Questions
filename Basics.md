@@ -598,7 +598,36 @@ fun main() {
   }
 
 }
+``` 
+    
+__Example (Using mutableListOf, arrayListOf, ArrayList)__
+    
+```ruby
+fun main() {
+    
+ // TODO Elements: 
+ // TODO Index   : 0 1 2 3 4   
+  
+ var mList = mutableListOf<String>("Apple") // TODO Instead of mutableListOf, we can also use arrayListOf, ArrayList
+ mList.add("Cat") // TODO Mutable, No Fixed Size, Can Add or Remove Elements
+ mList.add("Ball")
+ 
+ mList.remove("Cat")
+ mList.add(1, "Kotlin")
+ 
+ mList[1] = "Hello"
+ 
+  for(mElements in mList){
+        print(mElements)
+    }
+    
+    for(mIndex in 0..mList.size-1){
+        println(mList[mIndex])
+    }    
+	
+}
 ```
+    
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
 ## Need to Know
