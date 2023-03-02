@@ -666,26 +666,76 @@ fun main() {
 }	
 ```	
 	
-## Set and HashSet
+## Set
 
-- Set contains unique Elements 
-- mutableSetOf prints the value in the form of Sequence.	
-- HashSet contains unique Elements but sequence is not guaranteed in the output.	
+- Set Stores a List of unique Elements 
+- Set is Immutable, Fixed Size, Read Only	
 	
 __Example (Using setOf)__  
 	
 ```ruby	
 fun main() {
 
-  var mList = setOf < String > ("Apple", "Cat", "Kotlin", "Kotlin", "Dart") // TODO Immutable, Fixed Size, Read Only
+  var mList = setOf < String > ("Apple", "Pineapple", "Grapes", "Orange", "Grapes")
 
-  for (mElements in mList) { // TODO Using Individual Element (i.e) Objects
+  for (mElements in mList) {
     println(mElements)
   }
 
 }	
-```	
+```  	
+	
+## HashSet 
 
+- HashSet implements the Set interface. 
+- There can be no duplicates in a HashSet. 
+- There is no guarantee for the order of the elements in a HashSet.
+- HashSet is Mutable, No Fixed Size, Can Add or Remove Elements.
+
+__Example (Using HashSet)__  
+	
+```ruby	
+fun main() {
+
+  var mList = HashSet < String > () 
+  
+  mList.add("Apple")
+  mList.add("Grapes")
+  mList.add("Pineapple")
+  mList.add("Grapes")
+  mList.add("Orange")
+
+  mList.remove("Pineapple")
+
+  mList.add("Mango")
+
+  for (mElements in mList) { 
+    println(mElements)
+  }
+
+}
+```
+	
+__Example (Using hashSetOf)__  
+	
+```ruby	
+fun main() {
+
+  var mList = hashSetOf < String > ("Apple", "Pineapple", "Grapes", "Orange", "Grapes") 
+
+  mList.remove("Pineapple")
+
+  mList.add("Mango")
+
+  for (mElements in mList) { 
+    println(mElements)
+  }
+
+}
+```		
+	
+- mutableSetOf prints the value in the form of Sequence.		
+	
 __Example (Using mutableSetOf)__  
 	
 ```ruby	
@@ -704,23 +754,7 @@ fun main() {
 }	
 ```	
 	
-__Example (Using hashSetOf)__  
-	
-```ruby	
-fun main() {
 
-  var mList = hashSetOf < String > ("Apple", "Cat", "Kotlin", "Kotlin", "Dart") // TODO Mutable, No Fixed Size, Can Add or Remove Elements
-  
-  mList.remove("Cat")
-  
-  mList.add("Android")
-
-  for (mElements in mList) { // TODO Using Individual Element (i.e) Objects
-    println(mElements)
-  }
-
-}
-```		
 	
 ## Need to Know
 
