@@ -20,9 +20,10 @@
 | 15 | [Function as Expression](Basics.md#function-as-expression) |
 | 16 | [Default Function Parameters](Basics.md#default-function-parameters) |
 | 17 | [Named Parameters](Basics.md#named-parameters) |
-| 18 | [Lateinit Keyword](Basics.md#lateinit-keyword) |  
-| 19 | [Lazy Initialization](Basics.md#lazy-initialization) |
-| 20 | [Need to Know](Basics.md#need-to-know) |
+| 18 | [Null Safety Operators](Basics.md#null-safety-operators) |  
+| 19 | [Lateinit Keyword](Basics.md#lateinit-keyword) |  
+| 20 | [Lazy Initialization](Basics.md#lazy-initialization) |
+| 21 | [Need to Know](Basics.md#need-to-know) |
 
 ## Adding Comment Line
 
@@ -383,6 +384,110 @@ fun main() {
 fun mGetMarkDetails(mName: String, mMarksScored: Int, mPass: String = "Pass") {
 
   println("Name is $mName and Secured $mMarksScored. So the Result is $mPass")
+
+}
+```  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
+
+## Null Safety Operators
+
+- It is mainly used to avoid the Null Pointer Exception so that the normal flow of Application can be Maintained.
+- Types -> Nullable Types and Non-Nullable Types
+
+__Nullable Types__
+
+- Nullable types are declared by putting a ? behind the String.  
+
+__Example__
+
+```ruby
+fun main() {
+
+  var name: String ? = "Android"
+  name = null
+
+  print(name)
+
+}
+```
+
+__Non Nullable Types__
+
+- Non nullable types are normal strings which are declared as String.
+
+__Example__
+
+```ruby
+fun main() {
+
+  var name: String = null // TODO Compile Time Error
+
+}
+```  
+
+__Safe call (?.)__
+
+- We can print the Value only if the Value is not null it will print or else it will returns the null.
+
+__Example__
+
+```ruby
+fun main() {
+  
+  var mString: String? = null
+  println(mString)
+
+}
+```  
+
+__Safe Call with let ( ?.let )__
+
+- It Executes the block only if the Value is not null.
+
+__Example__
+
+```ruby
+fun main() {
+
+  var mString: String = "valueOne"
+
+  mString?.let {
+    println(mString)
+  }
+
+}
+```  
+
+__Elvis Operator ( ?: )__
+
+- We can print the Value only if the Value is not null or else set the default value.
+
+__Example__
+
+```ruby
+fun main() {
+
+  var mString: String = "valueOne"
+
+  val mValidate = mString?.length ? : 0
+
+  print(mValidate)
+
+}
+```  
+
+__Non-null assertion Operator ( !! )__ 
+
+- Once we are sure the value is not null we can use it or else it will throw a Null pointer exception.  
+
+__Example__
+
+```ruby
+fun main() {
+
+  var mString: String = "valueOne"
+
+  print(mString!!.length)
 
 }
 ```  
