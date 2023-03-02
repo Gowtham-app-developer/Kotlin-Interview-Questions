@@ -668,8 +668,11 @@ fun main() {
 	
 ## Set
 
-- Set Stores a List of unique Elements 
-- Set is Immutable, Fixed Size & Read Only.	
+- Set interface is a generic unordered collection of elements and it does not contain duplicate elements.
+- Two Types -> setOf() & mutableSetOf() 	
+- setOf() is Immutable, Fixed Size & Read Only.	
+- mutableSetOf() prints the value in the form of Sequence.
+- mutableSetOf() is Mutable, No Fixed Size, Can Add or Remove Elements.
 	
 __Example [Using setOf]__  
 	
@@ -683,7 +686,32 @@ fun main() {
   }
 
 }	
-```  	
+```  		
+	
+__Example [Using mutableSetOf]__  
+	
+```ruby	
+fun main() {
+
+  var mList = mutableSetOf < String > () 
+  
+  mList.add("Orange")
+  mList.add("Pineapple")
+  mList.add("Apple")
+  mList.add("Grapes")
+  mList.add("Grapes")
+ 
+
+  mList.remove("Pineapple")
+
+  mList.add("Mango")
+
+  for (mElements in mList) { 
+    println(mElements)
+  }
+
+}	
+```	
 	
 ## HashSet 
 
@@ -734,29 +762,38 @@ fun main() {
 }
 ```
 	
-
+## TreeSet
 	
-- mutableSetOf prints the value in the form of Sequence.		
+- TreeSet is a collection of type Set, the provides maintains sorted order of elements.
+- It also unique elements (property of a Set). 
+- TreeSet implements the SortedSet interface.	
 	
 __Example (Using mutableSetOf)__  
 	
 ```ruby	
+import java.util.TreeSet
+
 fun main() {
 
-  var mList = mutableSetOf < String > ("Apple", "Cat", "Kotlin", "Kotlin", "Dart") // TODO Mutable, No Fixed Size, Can Add or Remove Elements
+  var mList = TreeSet < String > () 
   
-  mList.remove("Cat")
-  
-  mList.add("Android")
+  mList.add("Orange")
+  mList.add("Pineapple")
+  mList.add("Apple")
+  mList.add("Grapes")
+  mList.add("Grapes")
+ 
 
-  for (mElements in mList) { // TODO Using Individual Element (i.e) Objects
+  mList.remove("Pineapple")
+
+  mList.add("Mango")
+
+  for (mElements in mList) { 
     println(mElements)
   }
 
-}	
-```	
-	
-
+}
+```
 	
 ## Need to Know
 
