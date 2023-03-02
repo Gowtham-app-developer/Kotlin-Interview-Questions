@@ -666,6 +666,62 @@ fun main() {
 }	
 ```	
 	
+## Set and HashSet
+
+- Set contains unique Elements 
+- mutableSetOf prints the value in the form of Sequence.	
+- HashSet contains unique Elements but sequence is not guaranteed in the output.	
+	
+__Example (Using setOf)__  
+	
+```ruby	
+fun main() {
+
+  var mList = setOf < String > ("Apple", "Cat", "Kotlin", "Kotlin", "Dart") // TODO Immutable, Fixed Size, Read Only
+
+  for (mElements in mList) { // TODO Using Individual Element (i.e) Objects
+    println(mElements)
+  }
+
+}	
+```	
+
+__Example (Using mutableSetOf)__  
+	
+```ruby	
+fun main() {
+
+  var mList = mutableSetOf < String > ("Apple", "Cat", "Kotlin", "Kotlin", "Dart") // TODO Mutable, No Fixed Size, Can Add or Remove Elements
+  
+  mList.remove("Cat")
+  
+  mList.add("Android")
+
+  for (mElements in mList) { // TODO Using Individual Element (i.e) Objects
+    println(mElements)
+  }
+
+}	
+```	
+	
+__Example (Using hashSetOf)__  
+	
+```ruby	
+fun main() {
+
+  var mList = hashSetOf < String > ("Apple", "Cat", "Kotlin", "Kotlin", "Dart") // TODO Mutable, No Fixed Size, Can Add or Remove Elements
+  
+  mList.remove("Cat")
+  
+  mList.add("Android")
+
+  for (mElements in mList) { // TODO Using Individual Element (i.e) Objects
+    println(mElements)
+  }
+
+}
+```		
+	
 ## Need to Know
 
 - REPL - Read-Eval-Print-Loop ( Tools -> Kotlin -> Kotlin REPL )
