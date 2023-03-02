@@ -764,9 +764,10 @@ fun main() {
 	
 ## TreeSet
 	
-- TreeSet is a collection of type Set, the provides maintains sorted order of elements.
-- It also unique elements (property of a Set). 
+- TreeSet is a collection of type Set, that provides & maintains sorted order of elements. 
+- It does not contain duplicate elements.
 - TreeSet implements the SortedSet interface.	
+- HashSet is Mutable, No Fixed Size, Can Add or Remove Elements.
 	
 __Example (Using mutableSetOf)__  
 	
