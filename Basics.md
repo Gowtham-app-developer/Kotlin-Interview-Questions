@@ -540,6 +540,46 @@ fun main() {
 ```  
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
+## Collection & Arrays
+
+- A collection usually contains a number of objects of the same type and these objects in the collection are called elements or items.
+- Arrays are Mutable but have fixed size.
+- Types -> Immutable Collections, Mutable Collections
+- Immutable Collections -> Read Only Operations can not modify its elements.
+- It consists of the Following Methods (i.e.) Immutable List – listOf() and listOf<T>(), Immutable Set – setOf(), Immutable Map – mapOf()
+- Mutable Collections -> It supports both read and write functionalities.
+- It consists of the Following Methods (i.e.) Mutable List – mutableListOf(), arrayListOf() and ArrayList, Mutable Set – mutableSetOf(), hashSetOf(), Mutable Map – mutableMapOf(), hashMapOf() and HashMap
+- Arrays in Kotlin are mutable in nature but have Fixed Size.
+- Arrays is a collection of Elements (i.e.) Int, Strings and So on.
+    
+__Example__
+    
+```ruby
+fun main() {
+
+  // TODO Elements: 1 1 1 1 1
+  // TODO Index   : 0 1 2 3 4   
+
+  var mArrayList = Array < Int > (5) {
+    1
+  } // TODO inside the Lambda we have to define the initial value of all the Elements. 
+
+  mArrayList[3] = 2
+
+  println(mArrayList[3])
+
+  for (mElements in mArrayList) {
+    print(mElements)
+  }
+
+  for (mIndex in 0..mArrayList.size - 1) {
+    println(mIndex)
+  }
+
+}    
+```  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
+
 ## Need to Know
 
 - REPL - Read-Eval-Print-Loop ( Tools -> Kotlin -> Kotlin REPL )
