@@ -540,7 +540,7 @@ fun main() {
 ```  
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
-## Collection & Arrays
+## Collection & Array
 
 - A collection usually contains a number of objects of the same type and these objects in the collection are called elements or items.
 - Arrays are Mutable but have fixed size.
@@ -584,9 +584,6 @@ __Example (Using listOf)__
 ```ruby
 fun main() {
 
-  // TODO Elements: 
-  // TODO Index   : 0 1 2 3 4   
-
   var mList = listOf < String > ("Apple", "Cat", "Kotlin", "Dart") // TODO Immutable, Fixed Size, Read Only
 
   for (mElements in mList) { // TODO Using Individual Element (i.e) Objects
@@ -604,10 +601,7 @@ __Example (Using mutableListOf, arrayListOf, ArrayList)__
     
 ```ruby
 fun main() {
-    
- // TODO Elements: 
- // TODO Index   : 0 1 2 3 4   
-  
+ 
  var mList = mutableListOf<String>("Apple") // TODO Instead of mutableListOf, we can also use arrayListOf, ArrayList
  mList.add("Cat") // TODO Mutable, No Fixed Size, Can Add or Remove Elements
  mList.add("Ball")
@@ -628,8 +622,50 @@ fun main() {
 }
 ```
     
-:arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
+:arrow_up: [__Back to Top__](Basics.md#table-of-contents)   
+	
+## Map
 
+- The Map is actually a Data Structure which contains the Elements in the form of Key-Value Pair.
+- It is Immutable, Fixed Size and Read Only.	
+	
+__Example (Using mapOf)__  
+	
+```ruby	
+fun main() {
+
+  var mMap = mapOf < Int, String > (1 to "Apple", 3 to "Cat", 2 to "Kotlin", 5 to "Dart") // TODO Immutable, Fixed Size, Read Only
+
+  for (mKey in mMap.keys) { // TODO Using Individual Element (i.e) Objects
+    println("$mKey = ${mMap[mKey]}") // TODO also we can use mMap.get(mKey)
+  }
+
+}	
+```  
+	
+__Example (Using HashMap, mutableMapOf, hashMapOf)__  	
+
+```ruby
+fun main() {
+
+  var mMap = HashMap < Int, String > () // TODO Instead of HashMap, we can also use mutableMapOf (it returns LinkedHashMap), hashMapOf
+  
+  mMap.put(1, "Apple") // TODO Mutable, No Fixed Size, Can Add or Remove Elements
+  mMap.put(3, "Cat") 
+  mMap.put(2, "Kotlin")
+  mMap.put(5, "Dart")
+  
+  mMap.put(2, "Flutter")
+  
+  mMap.replace(2, "Android")
+
+  for (mKey in mMap.keys) { // TODO Using Individual Element (i.e) Objects
+    println("$mKey = ${mMap[mKey]}") // TODO also we can use mMap.get(mKey)
+  }
+
+}	
+```	
+	
 ## Need to Know
 
 - REPL - Read-Eval-Print-Loop ( Tools -> Kotlin -> Kotlin REPL )
