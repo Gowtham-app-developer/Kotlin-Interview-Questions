@@ -671,7 +671,7 @@ fun main() {
 - Set Stores a List of unique Elements 
 - Set is Immutable, Fixed Size, Read Only	
 	
-__Example (Using setOf)__  
+__Example [Using setOf]__  
 	
 ```ruby	
 fun main() {
@@ -692,7 +692,7 @@ fun main() {
 - There is no guarantee for the order of the elements in a HashSet.
 - HashSet is Mutable, No Fixed Size, Can Add or Remove Elements.
 
-__Example (Using HashSet)__  
+__Example [Using HashSet]__  
 	
 ```ruby	
 fun main() {
@@ -716,7 +716,7 @@ fun main() {
 }
 ```
 	
-__Example (Using hashSetOf)__  
+__Example [Using hashSetOf]__  
 	
 ```ruby	
 fun main() {
