@@ -691,6 +691,24 @@ fun main() {
 - There can be no duplicates in a HashSet. 
 - There is no guarantee for the order of the elements in a HashSet.
 - HashSet is Mutable, No Fixed Size, Can Add or Remove Elements.
+	
+__Example [Using hashSetOf]__  
+	
+```ruby	
+fun main() {
+
+  var mList = hashSetOf < String > ("Apple", "Pineapple", "Grapes", "Orange", "Grapes") 
+
+  mList.remove("Pineapple")
+
+  mList.add("Mango")
+
+  for (mElements in mList) { 
+    println(mElements)
+  }
+
+}
+```			
 
 __Example [Using HashSet]__  
 	
@@ -716,23 +734,7 @@ fun main() {
 }
 ```
 	
-__Example [Using hashSetOf]__  
-	
-```ruby	
-fun main() {
 
-  var mList = hashSetOf < String > ("Apple", "Pineapple", "Grapes", "Orange", "Grapes") 
-
-  mList.remove("Pineapple")
-
-  mList.add("Mango")
-
-  for (mElements in mList) { 
-    println(mElements)
-  }
-
-}
-```		
 	
 - mutableSetOf prints the value in the form of Sequence.		
 	
