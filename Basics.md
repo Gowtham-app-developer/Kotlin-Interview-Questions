@@ -654,7 +654,7 @@ __Example (Using HashMap, mutableMapOf, hashMapOf)__
 ```ruby
 fun main() {
 
-  var mMap = HashMap < Int, String > () // TODO Instead of HashMap, we can also use mutableMapOf (it returns LinkedHashMap), hashMapOf
+  var mMap = HashMap < Int, String > () // TODO Instead of HashMap, We can also use hashMapOf().
   
   mMap.put(1, "Apple")
   mMap.put(3, "Pineapple") 
@@ -683,7 +683,7 @@ __Example (Using LinkedHashMap)__
 ```ruby
 fun main() {
 
-  var mMap = LinkedHashMap < Int, String > () // TODO Instead of HashMap, we can also use mutableMapOf (it returns LinkedHashMap), hashMapOf
+  var mMap = LinkedHashMap < Int, String > () // TODO Instead of LinkedHashMap, we can also use mutableMapOf().
   
   mMap.put(1, "Apple")
   mMap.put(3, "Pineapple") 
@@ -700,6 +700,37 @@ fun main() {
 
 }	
 ```	
+	
+## TreeHashMap  
+	
+- A TreeMap in Kotlin implements a sorted key value pair.
+- The TreeMap maintains sorted order for the keys. 
+- This is useful, when you would like the elements to be organized in sorted order.
+	
+__Example__
+	
+```ruby
+import java.util.TreeMap
+
+fun main() {
+
+  var mMap = TreeMap < Int, String > () 
+  
+  mMap.put(1, "Apple")
+  mMap.put(3, "Pineapple") 
+  mMap.put(2, "Grapes")
+  mMap.put(5, "Orange")
+  
+  mMap.put(2, "Mango")
+  
+  mMap.replace(2, "Stawberry")
+
+  for (mKey in mMap.keys) {
+    println("$mKey = ${mMap[mKey]}") // TODO We can also use mMap.get(mKey)
+  }
+
+}
+```
 	
 ## Set
 
