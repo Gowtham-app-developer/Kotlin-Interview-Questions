@@ -627,21 +627,27 @@ fun main() {
 ## Map
 
 - The Map is actually a Data Structure which contains the Elements in the form of Key-Value Pair.
-- It is Immutable, Fixed Size and Read Only.	
+- It is Immutable (i.e.) We can Read Only & it has Fixed Size.		
 	
 __Example (Using mapOf)__  
 	
 ```ruby	
 fun main() {
 
-  var mMap = mapOf < Int, String > (1 to "Apple", 3 to "Cat", 2 to "Kotlin", 5 to "Dart") // TODO Immutable, Fixed Size, Read Only
+  var mMap = mapOf < Int, String > (1 to "Apple", 3 to "Orange", 2 to "Mango", 5 to "Grapes") 
 
-  for (mKey in mMap.keys) { // TODO Using Individual Element (i.e) Objects
-    println("$mKey = ${mMap[mKey]}") // TODO also we can use mMap.get(mKey)
+  for (mKey in mMap.keys) { 
+    println("$mKey = ${mMap[mKey]}") // TODO Instead mMap[mKey] also we can use mMap.get(mKey)
   }
 
 }	
 ```  
+	
+## HashMap
+	
+- It contains the Elements in the form of Key-Value Pair.
+- A HashMap is unsynchronized and it permits null as a key. 
+- HashMap is Mutable (i.e.) We Can Add or Remove Elements & No Fixed Size.
 	
 __Example (Using HashMap, mutableMapOf, hashMapOf)__  	
 
@@ -650,17 +656,46 @@ fun main() {
 
   var mMap = HashMap < Int, String > () // TODO Instead of HashMap, we can also use mutableMapOf (it returns LinkedHashMap), hashMapOf
   
-  mMap.put(1, "Apple") // TODO Mutable, No Fixed Size, Can Add or Remove Elements
-  mMap.put(3, "Cat") 
-  mMap.put(2, "Kotlin")
-  mMap.put(5, "Dart")
+  mMap.put(1, "Apple")
+  mMap.put(3, "Pineapple") 
+  mMap.put(2, "Grapes")
+  mMap.put(5, "Orange")
   
-  mMap.put(2, "Flutter")
+  mMap.put(2, "Mango")
   
-  mMap.replace(2, "Android")
+  mMap.replace(2, "Stawberry")
 
-  for (mKey in mMap.keys) { // TODO Using Individual Element (i.e) Objects
-    println("$mKey = ${mMap[mKey]}") // TODO also we can use mMap.get(mKey)
+  for (mKey in mMap.keys) {
+    println("$mKey = ${mMap[mKey]}") // TODO We can also use mMap.get(mKey)
+  }
+
+}	
+```	
+
+## LinkedHashMap
+	
+- Similar to a HashMap, A LinkedHashMap in Kotlin implements a key value pair, it in facts extends the HashMap class.
+- The LinkedHashMap maintains insertion order for the keys. 
+- This is useful, when you would like the elements to retain the order of insertion.
+	
+__Example (Using LinkedHashMap)__  	
+
+```ruby
+fun main() {
+
+  var mMap = LinkedHashMap < Int, String > () // TODO Instead of HashMap, we can also use mutableMapOf (it returns LinkedHashMap), hashMapOf
+  
+  mMap.put(1, "Apple")
+  mMap.put(3, "Pineapple") 
+  mMap.put(2, "Grapes")
+  mMap.put(5, "Orange")
+  
+  mMap.put(2, "Mango")
+  
+  mMap.replace(2, "Stawberry")
+
+  for (mKey in mMap.keys) {
+    println("$mKey = ${mMap[mKey]}") // TODO We can also use mMap.get(mKey)
   }
 
 }	
@@ -670,9 +705,9 @@ fun main() {
 
 - Set interface is a generic unordered collection of elements and it does not contain duplicate elements.
 - Two Types -> setOf() & mutableSetOf() 	
-- setOf() is Immutable, Fixed Size & Read Only.	
+- setOf() is Immutable (i.e.) We can Read Only & it has Fixed Size.	
 - mutableSetOf() prints the value in the form of Sequence.
-- mutableSetOf() is Mutable, No Fixed Size, Can Add or Remove Elements.
+- mutableSetOf() is Mutable (i.e.) We Can Add or Remove Elements & No Fixed Size.
 	
 __Example [Using setOf]__  
 	
@@ -718,7 +753,7 @@ fun main() {
 - HashSet implements the Set interface. 
 - There can be no duplicates in a HashSet. 
 - There is no guarantee for the order of the elements in a HashSet.
-- HashSet is Mutable, No Fixed Size, Can Add or Remove Elements.
+- HashSet is Mutable (i.e.) We Can Add or Remove Elements & No Fixed Size.
 	
 __Example [Using hashSetOf]__  
 	
@@ -767,7 +802,7 @@ fun main() {
 - TreeSet is a collection of type Set, that provides & maintains sorted order of elements. 
 - It does not contain duplicate elements.
 - TreeSet implements the SortedSet interface.	
-- HashSet is Mutable, No Fixed Size, Can Add or Remove Elements.
+- TreeSet is Mutable (i.e.) We Can Add or Remove Elements & No Fixed Size.
 	
 __Example (Using mutableSetOf)__  
 	
