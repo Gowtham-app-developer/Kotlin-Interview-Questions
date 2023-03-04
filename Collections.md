@@ -1,13 +1,21 @@
 
-## Collection & Array
+## Collections
 
-- A collection usually contains a number of objects of the same type and these objects in the collection are called elements or items.
+- A collection usually contains a number of objects of the same type.  
+- These objects in the collection are called elements or items.  
+- Types -> Mutable Collections, Immutable Collections.  
+- Mutable Collections -> It supports both read and write functionalities.  
+- It consists of the Following Methods (i.e.) Mutable List – mutableListOf(), arrayListOf() and ArrayList, Mutable Set – mutableSetOf(), hashSetOf(), Mutable Map – mutableMapOf(), hashMapOf() and HashMap.  
+- Immutable Collections -> Read Only Operations cannot modify its elements.  
+- It consists of the Following Methods (i.e.) Immutable List – listOf() and listOf<T>(), Immutable Set – setOf(), Immutable Map – mapOf()	
+- Some of the important Collections in Kotlin include List, Set, and Map.  
+- List -> List contains ordered elements.  
+- Set -> Set contains unique elements.  
+- Map -> Map represents key value pair.   
+
+## Arrays
+
 - Arrays are Mutable but have fixed size.
-- Types -> Immutable Collections, Mutable Collections
-- Immutable Collections -> Read Only Operations can not modify its elements.
-- It consists of the Following Methods (i.e.) Immutable List – listOf() and listOf<T>(), Immutable Set – setOf(), Immutable Map – mapOf()
-- Mutable Collections -> It supports both read and write functionalities.
-- It consists of the Following Methods (i.e.) Mutable List – mutableListOf(), arrayListOf() and ArrayList, Mutable Set – mutableSetOf(), hashSetOf(), Mutable Map – mutableMapOf(), hashMapOf() and HashMap
 - Arrays in Kotlin are mutable in nature but have Fixed Size.
 - Arrays is a collection of Elements (i.e.) Int, Strings and So on.
     
