@@ -27,12 +27,21 @@
 
 ## Adding Comment Line
 
+- A comment is an explanation or description of the source code of the program.
+- Generally Comment makes the program easier to read and understand.
+- These are the statements that are not executed by the compiler or an interpreter.
+- Type -> Single Line Comment, Multiple Line Comment.
+
+__Example__
+
+```ruby
+// TODO - This is the Single Line Comment.
+```
+
 ```ruby
 /**
- * TODO - This is one type of comment Line
+ * TODO - This is the Multiple Line Comment.
  */
-
-// TODO - This is the another type of comment line
 ```
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
