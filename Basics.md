@@ -61,6 +61,8 @@ fun main() {
     private val mStringValueFour: String = "Four" // TODO Declaring a Value in the immutable string explicitly using val
 
     private val mStringValueFive: String by lazy { "Five" } // TODO Declaring a Value in the immutable string explicitly using val by lazy keyword
+    
+    println(mStringValueOne)
 
 }    
 ```  
