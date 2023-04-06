@@ -80,7 +80,7 @@ fun main() {
 ## Declaring Variables and Methods  
 
 ```ruby
-fun main(args: Array<String>) {
+fun main() {
 
     lateinit var mString: String // TODO Declaring Mutable String Explicitly
     mString = "Hello World!!!"
