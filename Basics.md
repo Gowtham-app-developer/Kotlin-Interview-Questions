@@ -61,9 +61,9 @@ fun main() {
 
     private lateinit var mStringValueFour: String // TODO Later We can Assign a Value using lateinit Keyword using var.
 
-    private val mStringValueFive: String = "Four" // TODO Declaring a Value in the immutable string explicitly using val
+    private val mStringValueFive: String = "Four" // TODO Declaring a Value in the immutable string explicitly using val.
 
-    private val mStringValueSix: String by lazy { "Five" } // TODO Declaring a Value in the immutable string explicitly using val by lazy keyword
+    private val mStringValueSix: String by lazy { "Five" } // TODO Declaring a Value in the immutable string explicitly using val by lazy keyword.
     
     private var mStringValueSeven: String? = null // TODO Declaring a Null Value in the mutable string explicitly using var.
     
