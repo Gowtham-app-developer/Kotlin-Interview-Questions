@@ -53,14 +53,20 @@ __Eample__
 fun main() {
 
     private var mStringValueOne: String = "One" // TODO Declaring a Value in the mutable string explicitly using var.
+    
+    private var mStringValueTwo = "ValueTwo" // TODO Declaring a Value in the mutable string implicitly using var.
 
-    private var mStringValueTwo: String? = null // TODO Declaring the null value in the mutable string explicitly using var.
+    private var mStringValueThree: String? = null // TODO Declaring the null value in the mutable string explicitly using var.
 
-    private lateinit var mStringValueThree: String // TODO Later We can Assign a Value using lateinit Keyword using var.
+    private lateinit var mStringValueFour: String // TODO Later We can Assign a Value using lateinit Keyword using var.
 
-    private val mStringValueFour: String = "Four" // TODO Declaring a Value in the immutable string explicitly using val
+    private val mStringValueFive: String = "Four" // TODO Declaring a Value in the immutable string explicitly using val
 
-    private val mStringValueFive: String by lazy { "Five" } // TODO Declaring a Value in the immutable string explicitly using val by lazy keyword
+    private val mStringValueSix: String by lazy { "Five" } // TODO Declaring a Value in the immutable string explicitly using val by lazy keyword
+    
+    private var mStringValueSeven: String? = null // TODO Declaring a Null Value in the mutable string explicitly using var.
+    
+    private val mStringValueSeven: String? = null // TODO Declaring a Null Value in the mutable string explicitly using val.
     
     println(mStringValueOne)
 
