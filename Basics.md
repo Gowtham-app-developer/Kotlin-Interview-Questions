@@ -436,7 +436,7 @@ __Example__
 ```ruby
 fun main() {
 
-  var name: String ? = "Android"
+  var name: String? = "Android"
   name = null
 
   print(name)
