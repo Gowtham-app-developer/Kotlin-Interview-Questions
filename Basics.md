@@ -5,14 +5,15 @@
 | S.No | Content |
 | --------	 | ------------ |
 | 1 | [Adding Comment Line](Basics.md#adding-comment-line) |  
-| 2 | [Declaring Variables and Methods](Basics.md#declaring-variables-and-methods) |  
-| 3 | [String Interpolation](Basics.md#string-interpolation) |  
-| 4 | [Calling Variables & Functions](Basics.md#calling-variables--functions-from-another-class) |
-| 5| [By Using Primary Constrcutor](Basics.md#by-using-primary-constrcutor) |
-| 6 | [Ranges](Basics.md#ranges) |
-| 7 | [If as Expression](Basics.md#if-as-expression) |
-| 8 | [For Loop](Basics.md#for-loop) |
-| 9 | [While Loop](Basics.md#while-loop) |
+| 2 | [Declaring Variables](Basics.md#declaring-variables) |  
+| 3 | [Declaring Variables and Methods](Basics.md#declaring-variables-and-methods) |  
+| 4 | [String Interpolation](Basics.md#string-interpolation) |  
+| 5 | [Calling Variables & Functions](Basics.md#calling-variables--functions-from-another-class) |
+| 6 | [By Using Primary Constrcutor](Basics.md#by-using-primary-constrcutor) |
+| 7 | [Ranges](Basics.md#ranges) |
+| 8 | [If as Expression](Basics.md#if-as-expression) |
+| 9 | [For Loop](Basics.md#for-loop) |
+| 10 | [While Loop](Basics.md#while-loop) |
 | 11 | [do While Loop](Basics.md#do-while-loop) |
 | 12 | [Break Statement with Labeled For Loop](Basics.md#break-statement-with-labeled-for-loop) |
 | 13 | [Continue Statement with Labeled For Loop](Basics.md#continue-statement-with-labeled-for-loop) |
