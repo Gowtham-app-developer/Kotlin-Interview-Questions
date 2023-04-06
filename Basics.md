@@ -45,6 +45,26 @@ __Example__
 ```
 :arrow_up: [__Back to Top__](Basics.md#table-of-contents)  
 
+## Declaring Variables
+
+__Eample__
+
+```ruby
+fun main() {
+
+    private var mStringValueOne: String = "One" // TODO Declaring a Value in the mutable string explicitly using var.
+
+    private var mStringValueTwo: String? = null // TODO Declaring the null value in the mutable string explicitly using var.
+
+    private lateinit var mStringValueThree: String // TODO Later We can Assign a Value using lateinit Keyword using var.
+
+    private val mStringValueFour: String = "Four" // TODO Declaring a Value in the immutable string explicitly using val
+
+    private val mStringValueFive: String by lazy { "Five" } // TODO Declaring a Value in the immutable string explicitly using val by lazy keyword
+
+}    
+```
+
 
 ## Declaring Variables and Methods  
 
