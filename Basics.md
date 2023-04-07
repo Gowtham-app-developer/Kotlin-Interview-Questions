@@ -198,7 +198,7 @@ fun main() {
 __Example__
 
 ```ruby
-fun main(args: Array<String>) {
+fun main() {
 
     val a = 5
     val b = 10
